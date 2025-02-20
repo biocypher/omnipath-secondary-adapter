@@ -5,25 +5,25 @@
 
 
 #--------------------  Information about Nodes
-source:
-    is_a: protein
+protein:
+    # is_a: protein
     represented_as: node
     # preferred_id: uniprot
-    input_label: source
+    input_label: protein
     properties:
-        source_genesymbol: str
-        ncbi_tax_id_source: int
-        entity_type_source: str
+        genesymbol: str
+        ncbi_tax_id: int
+        entity_type: str
 
-target:
-    is_a: protein
-    represented_as: node
-    # preferred_id: doid
-    input_label: target
-    properties:
-        target_genesymbol: str
-        ncbi_tax_id_target: int
-        entity_type_target: str
+# target:
+#     is_a: protein
+#     represented_as: node
+#     # preferred_id: doid
+#     input_label: target
+#     properties:
+#         target_genesymbol: str
+#         ncbi_tax_id_target: int
+#         entity_type_target: str
 
 #--------------------  Information about Edges
 protein protein interaction:

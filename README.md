@@ -1,55 +1,102 @@
 # Omnipath Secondary Adapter
-> [!WARNING]
-> This BioCypher adapter relies on the Ontoweaver library that works with Python 3.12. Ensure the Python version is 3.12 in your virtual environment. 
+
+## About OmniPath
+
+[Omnipath](https://omnipathdb.org/) is a database of molecular biology prior knowledge developed in [Saez Lab](https://saezlab.org/) and [Korcsmaros Lab](https://www.earlham.ac.uk/korcsmaros-group). It combines data from more than 100 resources and contains:
+
+-  **protein-protein** and **gene regulatory** interactions
+-  **Enzyme** and **Post-Translational-Modifications(PTM)** relationships
+-  **Protein complexes**
+-  **Protein annotations** 
+-  **intercellular communication**.
+
+Omnipath database stores the information in five different tables containing the aforementioned data.
+- *Networks*
+- *Enzyme-PTM*
+- *Complexes*
+- *Annotations*
+- *Intercell*
+
+#> [!WARNING]
+#> This BioCypher adapter relies on the Ontoweaver library that works with Python 3.12. Ensure the #Python version is 3.12 in your virtual environment. 
 
 
-**Description:**
+## About this adapter
 
-The main goal of this adapter is to provide user the ability to retrieve data from the [Omnipath Database](https://omnipathdb.org/) and use this data with BioCypher. For achieving this goal we are going to built the adapter with [OntoWeaver](https://github.com/oncodash/ontoweaver).
+The main goal of this adapter is to enable users to retrieve data from the Omnipath database and use that information to generate a knowledge graph. For achieving this goal, we are going use BioCypher and OntoWeaver.
+
+- [BioCypher](https://biocypher.org/):it  is a framework for building biomedical knowledge graphs by integrating heterogeneous data into a structured, ontology-aligned graph representation.
+
+- [OntoWeaver](https://github.com/oncodash/ontoweaver): it is a visual and declarative ontology-based tool for designing and managing data integration systems, enabling intuitive schema mapping and semantic consistency. OntoWeaver has been built built on top of Biocypher.
 
 
-## Steps to create an adapter with Ontoweaver
-1. Create a folder to store the data in our project. This folder can called `data`.
-2. Add the folder `data` to the `.gitignore` file to avoid uploading large datasets in our repository.
-3. [**TO DO**] If there is a step of preprocessing, create `weave_knowledge_graph.py` following the ontoweaver python template. If not, use the CLI command in the new version.
+## Prerequisites
+- *Python 3*
+- *Poetry* [recommended]: Python packaging and dependency manager.
+  - [Install Poetry](https://python-poetry.org/docs/#installation)
+- *git*: version control manager
+  - [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
-4. Create an Ontoweaver mapping file (`.yaml`) in the folder `/omnipath_secondary_adapter/adapters`. You should create one Ontoweaver mapping file for each table you are interested in use for building your knowledge graph. The purpose of each file is to map columns from each table with graph entities (nodes and relationships). At the same time, you can apply [Ontoweaver Transformers](https://ontoweaver.readthedocs.io/en/latest/readme_sections/mapping_api.html#available-transformers) to the data before use the data.
+| Prerequisite    | Version   | Verify installation      | How to install?                                                       |
+| --------------- | --------- | ------------------------ | --------------------------------------------------------------------- |
+| *Python 3*      | >=3.12    | ```$ python --version``` | [link](https://docs.python.org/3/using/index.html)                    |
+| *Poetry*        | 1.8       | ```$ poetry about```     | [link](https://python-poetry.org/docs/1.8/#installation)              |
+| *git*           | >= 2.0    | ```$ git --version```    | [link](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) |
+| *Neo4j desktop* | 2025.04.0 | ```$ neo4j --version```  | [link](https://neo4j.com/download)                                    |
 
-5. Create a BioCypher schema file  (`schema_config.yaml`) in the folder `/config/`. This file will serve to define which nodes and relationships will be present in our graph. For more information [click here](https://biocypher.org/quickstart.html#the-schema-configuration-yaml-file)
+## Usage
 
-> [!IMPORTANT]
-> Remember: You should create one single `schema_config_file.yaml`. On the other hand, you should create one ontoweaver YAML file per table you are using.
+1. Clone this repository and change to the directory:
+```bash
+git clone https://github.com/biocypher/omnipath-secondary-adapter
+cd omnipath-secondary-adapter
+```
+2. Install all the dependencies (pre-configured in the *pyproject.toml* file):
+```bash
+poetry lock
+poetry install --no-root
+```
 
-6. Add an ontology to be based on in `config/biocypher_config.yaml` and refer the entities and associations of the ontology in the `config/schema_config.yaml`.
+3. This current implementation generates Neo4j scripts for each table in the Omnipath database
 
-## Not to forget
+| **Omnipath table** | **Script parameter**              | **Neo4j script generation** |
+| ------------------ | :-------------------------------- | :-------------------------: |
+| *Networks*         | ```-net``` or ```--networks```    |           ✅ Done            |
+| *Enzyme-PTM*       | ```-enz``` or ```--enzyme-PTM```  |           ✅ Done            |
+| *Complexes*        | ```-co``` or ```--complexes```    |           ❌ TO DO           |
+| *Annotations*      | ```-an``` or ```--annotations```  |           ❌ TO DO           |
+| *Intercell*        | ```-inter``` or ```--intercell``` |        🛠️ In progress        |
 
-- For each column that you want extract, you need ot have (at least) one transformer.
-- 'label' == 'node|edge type'
-- underscore are necessary in labels in OntoWeaver adapters
+We have built a ready-to-use script that downloads the resources from Omnipath, and generate the scripts to export a Neo4j graph.
 
-## TO DO
+### *Networks*
+```bash
+poetry run python weave_knowledge_graph.py -net download
+```
 
-1. Estimate time for:
-     - processing biocypher output:
-          - [X] Edwin  
-          - [X] Matthieu 
-     - [ ] importing data in neo4j.(Matthieu)
-2. Check if the graph is consistent with the tabular data. (Edwin and Matthieu)
-    - Possible tests:
-     - [X] Verify there is not error when a source and a target are the same.
-      - [X] Count the number of edges in total.
-      - [X] Count the number of nodes in total.
-      - [X] Test if the schema is correct.
-3. [ ] Show the ontoweave command.(next Wed 19/03)
-4. Implement data validation in ontoweaver adapter.(next Wed 26/03)
-5. [X] Have the description with chatGPT. (Edwin)
-6. Add the other properties to the edges. (Matthieu)
-6. Import the other tables. (longer term)
-     - Add meta data.
-7. [X] Add the ability to download the data from Omnipath archive directly and automatically. (Edwin)
- 
+### *Enzyme-PTM*
+```bash
+poetry run python weave_knowledge_graph.py -enz download
+``` 
 
-# Frequently Asked Questions
+4. Once the script has processed the data, you can verify a folder has been generated in `biocypher-out`. It contains the following:
 
-1. **What does it mean "secondary adapter"?** -- it means the data in the adapter has been the result of harmonized procedures and does not constitute the primary source of information. For instance: the omnipath interactions table has been built by using more than one original resource (other tables).
+- `neo4j-admin-import-call.sh`
+- CSV files:
+  - ```*-header.csv```: indicate the node/edge properties fields
+  - ```*-part000.csv, *-part001.csv,...```: store nodes/edges data based on the structure indicated in the ```*-header.csv``` files.
+
+5. Ensure the script points to the Neo4j binary path. To do so, open the script: it should looks like this:
+
+![](./docs_adapter/img/script-edit-binary.png)
+
+6. Populate the neo4j database, adapt the script path:
+```bash
+sudo neo4j stop
+sudo bash biocypher-out/20250430155445/neo4j-admin-import-call.sh
+sudo neo4j start
+```
+
+7. Open the Neo4j platform on http://localhost:7474
+8. At the end, you have you Knowledge Graph! 🎉 Congratulations!
+![](./docs_adapter/img/example-neo4j-vis.png)

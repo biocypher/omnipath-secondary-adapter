@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "biocypher-project-template"
-version = "0.5.43"
-description = "Template for creating a BioCypher-driven knowledge graph"
+name = "omnipath-secondary-adapter"
+version = "0.1.0"
+description = "BioCypher adapter to retrieve and generate Knowledge Graphs from Omnipath data"
 authors = [
-    "Sebastian Lobentanzer <sebastian.lobentanzer@gmail.com>",
-    "Andreas Maier <andreas.maier-1@uni-hamburg.de>",
+    "Edwin Carreño <edwin.carreno@iwr.uni-heidelberg.de>",
+    "Matthieu Najm <matthieu.najm@pasteur.fr>",
 ]
 license = "MIT"
 readme = "README.md"

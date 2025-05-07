@@ -8,7 +8,7 @@ fi
 
 input_dir="$1"
 output_dir="$2"
-extension="tsv"
+extension="decomp"
 
 # Create the output directory if it doesn't exist
 mkdir -p "$output_dir"
@@ -23,7 +23,7 @@ for file in "$input_dir"/*."$extension"; do
         head -n 1 "$file" > "$output_file"
         
         # Shuffle and select 100 random rows (excluding the header)
-        tail -n +2 "$file" | shuf | head -n 100 >> "$output_file"
+        tail -n +2 "$file" | shuf | head -n 10000 >> "$output_file"
 
         echo "Processed: $filename -> $output_file"
     fi

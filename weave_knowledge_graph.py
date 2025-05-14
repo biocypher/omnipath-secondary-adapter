@@ -47,6 +47,7 @@ from omnipath_secondary_adapter.models import (
     NetworksPanderaModel,
     EnzymePTMPanderaModel,
     # IntercellPanderaModel,
+    # AnnotationsPanderaModel,
 )
 
 # ----------------------    CONSTANTS    ----------------------
@@ -61,27 +62,31 @@ URLS_OMNIPATH = {
 }
 
 PANDERA_SCHEMAS = {
-    "networks": NetworksPanderaModel,
+    # "annotations": AnnotationsPanderaModel,
     "enzyme_PTM": EnzymePTMPanderaModel,
     # "intercell": IntercellPanderaModel,
+    "networks": NetworksPanderaModel,
 }
 
 ONTOWEAVER_MAPPING_FILES = {
-    "networks": "./omnipath_secondary_adapter/adapters/networks.yaml",
+    "annotations": "./omnipath_secondary_adapter/adapters/annotations.yaml",
     "enzyme_PTM": "./omnipath_secondary_adapter/adapters/enzymePTM.yaml",
     "intercell": "./omnipath_secondary_adapter/adapters/intercell.yaml",
+    "networks": "./omnipath_secondary_adapter/adapters/networks.yaml",
 }
 
 BIOCYPHER_CONFIG_PATHS = {
-    "networks": "config/biocypher_config.yaml",
+    "annotations": "config/biocypher_config_annotations.yaml",
     "enzyme_PTM": "config/biocypher_config_enzymePTM.yaml",
     "intercell": "config/biocypher_config_intercell.yaml",
+    "networks": "config/biocypher_config.yaml",
 }
 
 BIOCYPHER_SCHEMA_PATHS = {
-    "networks": "config/schema_config.yaml",
+    "annotations": "config/schema_config_annotations.yaml",
     "enzyme_PTM": "config/schema_config_enzymePTM.yaml",
     "intercell": "config/schema_config_intercell.yaml",
+    "networks": "config/schema_config.yaml",
 }
 
 

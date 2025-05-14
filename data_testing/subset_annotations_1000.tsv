@@ -1,0 +1,1001 @@
+uniprot	genesymbol	entity_type	source	label	value	record_id
+P01137	TGFB1	protein	CellChatDB	role	ligand	0
+P01137	TGFB1	protein	CellChatDB	pathway	TGFb	0
+P01137	TGFB1	protein	CellChatDB	category	Secreted Signaling	0
+COMPLEX:P36897_P37173	COMPLEX:TGFBR1_TGFBR2	complex	CellChatDB	role	receptor	1
+COMPLEX:P36897_P37173	COMPLEX:TGFBR1_TGFBR2	complex	CellChatDB	pathway	TGFb	1
+COMPLEX:P36897_P37173	COMPLEX:TGFBR1_TGFBR2	complex	CellChatDB	category	Secreted Signaling	1
+P19883	FST	protein	CellChatDB	role	agonist	2
+P19883	FST	protein	CellChatDB	pathway	NODAL	2
+P19883	FST	protein	CellChatDB	category	Secreted Signaling	2
+P19883	FST	protein	CellChatDB	role	antagonist	3
+P19883	FST	protein	CellChatDB	pathway	ACTIVIN	3
+P19883	FST	protein	CellChatDB	category	Secreted Signaling	3
+P19883	FST	protein	CellChatDB	role	agonist	4
+P19883	FST	protein	CellChatDB	pathway	TGFb	4
+P19883	FST	protein	CellChatDB	category	Secreted Signaling	4
+P07996	THBS1	protein	CellChatDB	role	agonist	5
+P07996	THBS1	protein	CellChatDB	pathway	TGFb	5
+P07996	THBS1	protein	CellChatDB	category	Secreted Signaling	5
+P07996	THBS1	protein	CellChatDB	role	ligand	6
+P07996	THBS1	protein	CellChatDB	pathway	THBS	6
+P07996	THBS1	protein	CellChatDB	category	ECM-Receptor	6
+Q06828	FMOD	protein	CellChatDB	role	antagonist	7
+Q06828	FMOD	protein	CellChatDB	pathway	TGFb	7
+Q06828	FMOD	protein	CellChatDB	category	Secreted Signaling	7
+Q14766	LTBP1	protein	CellChatDB	role	antagonist	8
+Q14766	LTBP1	protein	CellChatDB	pathway	TGFb	8
+Q14766	LTBP1	protein	CellChatDB	category	Secreted Signaling	8
+P55103	INHBC	protein	CellChatDB	role	ligand	9
+P55103	INHBC	protein	CellChatDB	pathway	ACTIVIN	9
+P55103	INHBC	protein	CellChatDB	category	Secreted Signaling	9
+P55103	INHBC	protein	CellChatDB	role	antagonist	10
+P55103	INHBC	protein	CellChatDB	pathway	NODAL	10
+P55103	INHBC	protein	CellChatDB	category	Secreted Signaling	10
+P55103	INHBC	protein	CellChatDB	role	antagonist	11
+P55103	INHBC	protein	CellChatDB	pathway	TGFb	11
+P55103	INHBC	protein	CellChatDB	category	Secreted Signaling	11
+P08476	INHBA	protein	CellChatDB	role	ligand	12
+P08476	INHBA	protein	CellChatDB	pathway	ACTIVIN	12
+P08476	INHBA	protein	CellChatDB	category	Secreted Signaling	12
+P08476	INHBA	protein	CellChatDB	role	antagonist	13
+P08476	INHBA	protein	CellChatDB	pathway	NODAL	13
+P08476	INHBA	protein	CellChatDB	category	Secreted Signaling	13
+P08476	INHBA	protein	CellChatDB	role	antagonist	14
+P08476	INHBA	protein	CellChatDB	pathway	TGFb	14
+P08476	INHBA	protein	CellChatDB	category	Secreted Signaling	14
+P07585	DCN	protein	CellChatDB	role	antagonist	15
+P07585	DCN	protein	CellChatDB	pathway	TGFb	15
+P07585	DCN	protein	CellChatDB	category	Secreted Signaling	15
+P09529	INHBB	protein	CellChatDB	role	ligand	16
+P09529	INHBB	protein	CellChatDB	pathway	ACTIVIN	16
+P09529	INHBB	protein	CellChatDB	category	Secreted Signaling	16
+P09529	INHBB	protein	CellChatDB	role	antagonist	17
+P09529	INHBB	protein	CellChatDB	pathway	NODAL	17
+P09529	INHBB	protein	CellChatDB	category	Secreted Signaling	17
+P09529	INHBB	protein	CellChatDB	role	antagonist	18
+P09529	INHBB	protein	CellChatDB	pathway	TGFb	18
+P09529	INHBB	protein	CellChatDB	category	Secreted Signaling	18
+O75610	LEFTY1	protein	CellChatDB	role	antagonist	19
+O75610	LEFTY1	protein	CellChatDB	pathway	BMP	19
+O75610	LEFTY1	protein	CellChatDB	category	Secreted Signaling	19
+O75610	LEFTY1	protein	CellChatDB	role	antagonist	20
+O75610	LEFTY1	protein	CellChatDB	pathway	NODAL	20
+O75610	LEFTY1	protein	CellChatDB	category	Secreted Signaling	20
+O75610	LEFTY1	protein	CellChatDB	role	antagonist	21
+O75610	LEFTY1	protein	CellChatDB	pathway	TGFb	21
+O75610	LEFTY1	protein	CellChatDB	category	Secreted Signaling	21
+O00292	LEFTY2	protein	CellChatDB	role	antagonist	22
+O00292	LEFTY2	protein	CellChatDB	pathway	BMP	22
+O00292	LEFTY2	protein	CellChatDB	category	Secreted Signaling	22
+O00292	LEFTY2	protein	CellChatDB	role	antagonist	23
+O00292	LEFTY2	protein	CellChatDB	pathway	NODAL	23
+O00292	LEFTY2	protein	CellChatDB	category	Secreted Signaling	23
+O00292	LEFTY2	protein	CellChatDB	role	antagonist	24
+O00292	LEFTY2	protein	CellChatDB	pathway	TGFb	24
+O00292	LEFTY2	protein	CellChatDB	category	Secreted Signaling	24
+Q9Y6C2	EMILIN1	protein	CellChatDB	role	antagonist	25
+Q9Y6C2	EMILIN1	protein	CellChatDB	pathway	TGFb	25
+Q9Y6C2	EMILIN1	protein	CellChatDB	category	Secreted Signaling	25
+P58166	INHBE	protein	CellChatDB	role	ligand	26
+P58166	INHBE	protein	CellChatDB	pathway	ACTIVIN	26
+P58166	INHBE	protein	CellChatDB	category	Secreted Signaling	26
+P58166	INHBE	protein	CellChatDB	role	antagonist	27
+P58166	INHBE	protein	CellChatDB	pathway	NODAL	27
+P58166	INHBE	protein	CellChatDB	category	Secreted Signaling	27
+P58166	INHBE	protein	CellChatDB	role	antagonist	28
+P58166	INHBE	protein	CellChatDB	pathway	TGFb	28
+P58166	INHBE	protein	CellChatDB	category	Secreted Signaling	28
+Q13145	BAMBI	protein	CellChatDB	role	co_I_receptor	29
+Q13145	BAMBI	protein	CellChatDB	pathway	TGFb	29
+Q13145	BAMBI	protein	CellChatDB	category	Secreted Signaling	29
+Q13145	BAMBI	protein	CellChatDB	role	co_I_receptor	30
+Q13145	BAMBI	protein	CellChatDB	pathway	BMP	30
+Q13145	BAMBI	protein	CellChatDB	category	Secreted Signaling	30
+Q13145	BAMBI	protein	CellChatDB	role	co_I_receptor	31
+Q13145	BAMBI	protein	CellChatDB	pathway	ACTIVIN	31
+Q13145	BAMBI	protein	CellChatDB	category	Secreted Signaling	31
+Q13145	BAMBI	protein	CellChatDB	role	co_A_receptor	32
+Q13145	BAMBI	protein	CellChatDB	pathway	WNT	32
+Q13145	BAMBI	protein	CellChatDB	category	Secreted Signaling	32
+P61812	TGFB2	protein	CellChatDB	role	ligand	33
+P61812	TGFB2	protein	CellChatDB	pathway	TGFb	33
+P61812	TGFB2	protein	CellChatDB	category	Secreted Signaling	33
+P10600	TGFB3	protein	CellChatDB	role	ligand	34
+P10600	TGFB3	protein	CellChatDB	pathway	TGFb	34
+P10600	TGFB3	protein	CellChatDB	category	Secreted Signaling	34
+COMPLEX:P36896_P37173	COMPLEX:ACVR1B_TGFBR2	complex	CellChatDB	role	receptor	35
+COMPLEX:P36896_P37173	COMPLEX:ACVR1B_TGFBR2	complex	CellChatDB	pathway	TGFb	35
+COMPLEX:P36896_P37173	COMPLEX:ACVR1B_TGFBR2	complex	CellChatDB	category	Secreted Signaling	35
+COMPLEX:P37173_Q8NER5	COMPLEX:ACVR1C_TGFBR2	complex	CellChatDB	role	receptor	36
+COMPLEX:P37173_Q8NER5	COMPLEX:ACVR1C_TGFBR2	complex	CellChatDB	pathway	TGFb	36
+COMPLEX:P37173_Q8NER5	COMPLEX:ACVR1C_TGFBR2	complex	CellChatDB	category	Secreted Signaling	36
+COMPLEX:P36897_P37173_Q04771	COMPLEX:ACVR1_TGFBR1_TGFBR2	complex	CellChatDB	role	receptor	37
+COMPLEX:P36897_P37173_Q04771	COMPLEX:ACVR1_TGFBR1_TGFBR2	complex	CellChatDB	pathway	TGFb	37
+COMPLEX:P36897_P37173_Q04771	COMPLEX:ACVR1_TGFBR1_TGFBR2	complex	CellChatDB	category	Secreted Signaling	37
+P12643	BMP2	protein	CellChatDB	role	ligand	38
+P12643	BMP2	protein	CellChatDB	pathway	BMP	38
+P12643	BMP2	protein	CellChatDB	category	Secreted Signaling	38
+COMPLEX:P27037_P36894	COMPLEX:ACVR2A_BMPR1A	complex	CellChatDB	role	receptor	39
+COMPLEX:P27037_P36894	COMPLEX:ACVR2A_BMPR1A	complex	CellChatDB	pathway	BMP	39
+COMPLEX:P27037_P36894	COMPLEX:ACVR2A_BMPR1A	complex	CellChatDB	category	Secreted Signaling	39
+P41271	NBL1	protein	CellChatDB	role	antagonist	40
+P41271	NBL1	protein	CellChatDB	pathway	BMP	40
+P41271	NBL1	protein	CellChatDB	category	Secreted Signaling	40
+O60565	GREM1	protein	CellChatDB	role	antagonist	41
+O60565	GREM1	protein	CellChatDB	pathway	BMP	41
+O60565	GREM1	protein	CellChatDB	category	Secreted Signaling	41
+Q9H2X0	CHRD	protein	CellChatDB	role	antagonist	42
+Q9H2X0	CHRD	protein	CellChatDB	pathway	BMP	42
+Q9H2X0	CHRD	protein	CellChatDB	category	Secreted Signaling	42
+Q13253	NOG	protein	CellChatDB	role	antagonist	43
+Q13253	NOG	protein	CellChatDB	pathway	BMP	43
+Q13253	NOG	protein	CellChatDB	category	Secreted Signaling	43
+P12645	BMP3	protein	CellChatDB	role	antagonist	44
+P12645	BMP3	protein	CellChatDB	pathway	BMP	44
+P12645	BMP3	protein	CellChatDB	category	Secreted Signaling	44
+Q9H772	GREM2	protein	CellChatDB	role	antagonist	45
+Q9H772	GREM2	protein	CellChatDB	pathway	BMP	45
+Q9H772	GREM2	protein	CellChatDB	category	Secreted Signaling	45
+COMPLEX:P36894_Q13705	COMPLEX:ACVR2B_BMPR1A	complex	CellChatDB	role	receptor	46
+COMPLEX:P36894_Q13705	COMPLEX:ACVR2B_BMPR1A	complex	CellChatDB	pathway	BMP	46
+COMPLEX:P36894_Q13705	COMPLEX:ACVR2B_BMPR1A	complex	CellChatDB	category	Secreted Signaling	46
+COMPLEX:P36894_Q13873	COMPLEX:BMPR1A_BMPR2	complex	CellChatDB	role	receptor	47
+COMPLEX:P36894_Q13873	COMPLEX:BMPR1A_BMPR2	complex	CellChatDB	pathway	BMP	47
+COMPLEX:P36894_Q13873	COMPLEX:BMPR1A_BMPR2	complex	CellChatDB	category	Secreted Signaling	47
+COMPLEX:O00238_P27037	COMPLEX:ACVR2A_BMPR1B	complex	CellChatDB	role	receptor	48
+COMPLEX:O00238_P27037	COMPLEX:ACVR2A_BMPR1B	complex	CellChatDB	pathway	BMP	48
+COMPLEX:O00238_P27037	COMPLEX:ACVR2A_BMPR1B	complex	CellChatDB	category	Secreted Signaling	48
+COMPLEX:O00238_Q13705	COMPLEX:ACVR2B_BMPR1B	complex	CellChatDB	role	receptor	49
+COMPLEX:O00238_Q13705	COMPLEX:ACVR2B_BMPR1B	complex	CellChatDB	pathway	BMP	49
+COMPLEX:O00238_Q13705	COMPLEX:ACVR2B_BMPR1B	complex	CellChatDB	category	Secreted Signaling	49
+COMPLEX:O00238_Q13873	COMPLEX:BMPR1B_BMPR2	complex	CellChatDB	role	receptor	50
+COMPLEX:O00238_Q13873	COMPLEX:BMPR1B_BMPR2	complex	CellChatDB	pathway	BMP	50
+COMPLEX:O00238_Q13873	COMPLEX:BMPR1B_BMPR2	complex	CellChatDB	category	Secreted Signaling	50
+P12644	BMP4	protein	CellChatDB	role	ligand	51
+P12644	BMP4	protein	CellChatDB	pathway	BMP	51
+P12644	BMP4	protein	CellChatDB	category	Secreted Signaling	51
+P43026	GDF5	protein	CellChatDB	role	ligand	52
+P43026	GDF5	protein	CellChatDB	pathway	BMP	52
+P43026	GDF5	protein	CellChatDB	category	Secreted Signaling	52
+Q6KF10	GDF6	protein	CellChatDB	role	ligand	53
+Q6KF10	GDF6	protein	CellChatDB	pathway	BMP	53
+Q6KF10	GDF6	protein	CellChatDB	category	Secreted Signaling	53
+Q7Z4P5	GDF7	protein	CellChatDB	role	ligand	54
+Q7Z4P5	GDF7	protein	CellChatDB	pathway	BMP	54
+Q7Z4P5	GDF7	protein	CellChatDB	category	Secreted Signaling	54
+O95972	BMP15	protein	CellChatDB	role	ligand	55
+O95972	BMP15	protein	CellChatDB	pathway	BMP	55
+O95972	BMP15	protein	CellChatDB	category	Secreted Signaling	55
+P22003	BMP5	protein	CellChatDB	role	ligand	56
+P22003	BMP5	protein	CellChatDB	pathway	BMP	56
+P22003	BMP5	protein	CellChatDB	category	Secreted Signaling	56
+COMPLEX:P27037_Q04771	COMPLEX:ACVR1_ACVR2A	complex	CellChatDB	role	receptor	57
+COMPLEX:P27037_Q04771	COMPLEX:ACVR1_ACVR2A	complex	CellChatDB	pathway	BMP	57
+COMPLEX:P27037_Q04771	COMPLEX:ACVR1_ACVR2A	complex	CellChatDB	category	Secreted Signaling	57
+COMPLEX:Q04771_Q13705	COMPLEX:ACVR1_ACVR2B	complex	CellChatDB	role	receptor	58
+COMPLEX:Q04771_Q13705	COMPLEX:ACVR1_ACVR2B	complex	CellChatDB	pathway	BMP	58
+COMPLEX:Q04771_Q13705	COMPLEX:ACVR1_ACVR2B	complex	CellChatDB	category	Secreted Signaling	58
+COMPLEX:Q04771_Q13873	COMPLEX:ACVR1_BMPR2	complex	CellChatDB	role	receptor	59
+COMPLEX:Q04771_Q13873	COMPLEX:ACVR1_BMPR2	complex	CellChatDB	pathway	BMP	59
+COMPLEX:Q04771_Q13873	COMPLEX:ACVR1_BMPR2	complex	CellChatDB	category	Secreted Signaling	59
+P22004	BMP6	protein	CellChatDB	role	ligand	60
+P22004	BMP6	protein	CellChatDB	pathway	BMP	60
+P22004	BMP6	protein	CellChatDB	category	Secreted Signaling	60
+P18075	BMP7	protein	CellChatDB	role	ligand	61
+P18075	BMP7	protein	CellChatDB	pathway	BMP	61
+P18075	BMP7	protein	CellChatDB	category	Secreted Signaling	61
+Q7Z5Y6	BMP8A	protein	CellChatDB	role	ligand	62
+Q7Z5Y6	BMP8A	protein	CellChatDB	pathway	BMP	62
+Q7Z5Y6	BMP8A	protein	CellChatDB	category	Secreted Signaling	62
+P34820	BMP8B	protein	CellChatDB	role	ligand	63
+P34820	BMP8B	protein	CellChatDB	pathway	BMP	63
+P34820	BMP8B	protein	CellChatDB	category	Secreted Signaling	63
+O95393	BMP10	protein	CellChatDB	role	ligand	64
+O95393	BMP10	protein	CellChatDB	pathway	BMP10	64
+O95393	BMP10	protein	CellChatDB	category	Secreted Signaling	64
+COMPLEX:P37023_Q13873	COMPLEX:ACVRL1_BMPR2	complex	CellChatDB	role	receptor	65
+COMPLEX:P37023_Q13873	COMPLEX:ACVRL1_BMPR2	complex	CellChatDB	pathway	BMP10	65
+COMPLEX:P37023_Q13873	COMPLEX:ACVRL1_BMPR2	complex	CellChatDB	category	Secreted Signaling	65
+P17813	ENG	protein	CellChatDB	role	co_A_receptor	66
+P17813	ENG	protein	CellChatDB	pathway	BMP10	66
+P17813	ENG	protein	CellChatDB	category	Secreted Signaling	66
+COMPLEX:P27037_P37023	COMPLEX:ACVR2A_ACVRL1	complex	CellChatDB	role	receptor	67
+COMPLEX:P27037_P37023	COMPLEX:ACVR2A_ACVRL1	complex	CellChatDB	pathway	BMP10	67
+COMPLEX:P27037_P37023	COMPLEX:ACVR2A_ACVRL1	complex	CellChatDB	category	Secreted Signaling	67
+Q9UK05	GDF2	protein	CellChatDB	role	ligand	68
+Q9UK05	GDF2	protein	CellChatDB	pathway	BMP10	68
+Q9UK05	GDF2	protein	CellChatDB	category	Secreted Signaling	68
+O60383	GDF9	protein	CellChatDB	role	ligand	69
+O60383	GDF9	protein	CellChatDB	pathway	GDF	69
+O60383	GDF9	protein	CellChatDB	category	Secreted Signaling	69
+COMPLEX:P36896_Q13873	COMPLEX:ACVR1B_BMPR2	complex	CellChatDB	role	receptor	70
+COMPLEX:P36896_Q13873	COMPLEX:ACVR1B_BMPR2	complex	CellChatDB	pathway	GDF	70
+COMPLEX:P36896_Q13873	COMPLEX:ACVR1B_BMPR2	complex	CellChatDB	category	Secreted Signaling	70
+P55107	GDF10	protein	CellChatDB	role	ligand	71
+P55107	GDF10	protein	CellChatDB	pathway	GDF	71
+P55107	GDF10	protein	CellChatDB	category	Secreted Signaling	71
+COMPLEX:P27037_P36896	COMPLEX:ACVR1B_ACVR2A	complex	CellChatDB	role	receptor	72
+COMPLEX:P27037_P36896	COMPLEX:ACVR1B_ACVR2A	complex	CellChatDB	pathway	MSTN	72
+COMPLEX:P27037_P36896	COMPLEX:ACVR1B_ACVR2A	complex	CellChatDB	category	Secreted Signaling	72
+COMPLEX:P27037_P36896	COMPLEX:ACVR1B_ACVR2A	complex	CellChatDB	role	receptor	73
+COMPLEX:P27037_P36896	COMPLEX:ACVR1B_ACVR2A	complex	CellChatDB	pathway	GDF	73
+COMPLEX:P27037_P36896	COMPLEX:ACVR1B_ACVR2A	complex	CellChatDB	category	Secreted Signaling	73
+COMPLEX:P27037_P36896	COMPLEX:ACVR1B_ACVR2A	complex	CellChatDB	role	receptor	74
+COMPLEX:P27037_P36896	COMPLEX:ACVR1B_ACVR2A	complex	CellChatDB	pathway	ACTIVIN	74
+COMPLEX:P27037_P36896	COMPLEX:ACVR1B_ACVR2A	complex	CellChatDB	category	Secreted Signaling	74
+O95390	GDF11	protein	CellChatDB	role	ligand	75
+O95390	GDF11	protein	CellChatDB	pathway	GDF	75
+O95390	GDF11	protein	CellChatDB	category	Secreted Signaling	75
+COMPLEX:P27037_P36897	COMPLEX:ACVR2A_TGFBR1	complex	CellChatDB	role	receptor	76
+COMPLEX:P27037_P36897	COMPLEX:ACVR2A_TGFBR1	complex	CellChatDB	pathway	MSTN	76
+COMPLEX:P27037_P36897	COMPLEX:ACVR2A_TGFBR1	complex	CellChatDB	category	Secreted Signaling	76
+COMPLEX:P27037_P36897	COMPLEX:ACVR2A_TGFBR1	complex	CellChatDB	role	receptor	77
+COMPLEX:P27037_P36897	COMPLEX:ACVR2A_TGFBR1	complex	CellChatDB	pathway	GDF	77
+COMPLEX:P27037_P36897	COMPLEX:ACVR2A_TGFBR1	complex	CellChatDB	category	Secreted Signaling	77
+COMPLEX:P36897_Q13705	COMPLEX:ACVR2B_TGFBR1	complex	CellChatDB	role	receptor	78
+COMPLEX:P36897_Q13705	COMPLEX:ACVR2B_TGFBR1	complex	CellChatDB	pathway	MSTN	78
+COMPLEX:P36897_Q13705	COMPLEX:ACVR2B_TGFBR1	complex	CellChatDB	category	Secreted Signaling	78
+COMPLEX:P36897_Q13705	COMPLEX:ACVR2B_TGFBR1	complex	CellChatDB	role	receptor	79
+COMPLEX:P36897_Q13705	COMPLEX:ACVR2B_TGFBR1	complex	CellChatDB	pathway	GDF	79
+COMPLEX:P36897_Q13705	COMPLEX:ACVR2B_TGFBR1	complex	CellChatDB	category	Secreted Signaling	79
+COMPLEX:P36896_Q13705	COMPLEX:ACVR1B_ACVR2B	complex	CellChatDB	role	receptor	80
+COMPLEX:P36896_Q13705	COMPLEX:ACVR1B_ACVR2B	complex	CellChatDB	pathway	MSTN	80
+COMPLEX:P36896_Q13705	COMPLEX:ACVR1B_ACVR2B	complex	CellChatDB	category	Secreted Signaling	80
+COMPLEX:P36896_Q13705	COMPLEX:ACVR1B_ACVR2B	complex	CellChatDB	role	receptor	81
+COMPLEX:P36896_Q13705	COMPLEX:ACVR1B_ACVR2B	complex	CellChatDB	pathway	GDF	81
+COMPLEX:P36896_Q13705	COMPLEX:ACVR1B_ACVR2B	complex	CellChatDB	category	Secreted Signaling	81
+COMPLEX:P36896_Q13705	COMPLEX:ACVR1B_ACVR2B	complex	CellChatDB	role	receptor	82
+COMPLEX:P36896_Q13705	COMPLEX:ACVR1B_ACVR2B	complex	CellChatDB	pathway	ACTIVIN	82
+COMPLEX:P36896_Q13705	COMPLEX:ACVR1B_ACVR2B	complex	CellChatDB	category	Secreted Signaling	82
+Q99988	GDF15	protein	CellChatDB	role	ligand	83
+Q99988	GDF15	protein	CellChatDB	pathway	GDF	83
+Q99988	GDF15	protein	CellChatDB	category	Secreted Signaling	83
+P37173	TGFBR2	protein	CellChatDB	role	receptor	84
+P37173	TGFBR2	protein	CellChatDB	pathway	GDF	84
+P37173	TGFBR2	protein	CellChatDB	category	Secreted Signaling	84
+O14793	MSTN	protein	CellChatDB	role	ligand	85
+O14793	MSTN	protein	CellChatDB	pathway	MSTN	85
+O14793	MSTN	protein	CellChatDB	category	Secreted Signaling	85
+P03971	AMH	protein	CellChatDB	role	ligand	86
+P03971	AMH	protein	CellChatDB	pathway	AMH	86
+P03971	AMH	protein	CellChatDB	category	Secreted Signaling	86
+COMPLEX:Q04771_Q16671	COMPLEX:ACVR1_AMHR2	complex	CellChatDB	role	receptor	87
+COMPLEX:Q04771_Q16671	COMPLEX:ACVR1_AMHR2	complex	CellChatDB	pathway	AMH	87
+COMPLEX:Q04771_Q16671	COMPLEX:ACVR1_AMHR2	complex	CellChatDB	category	Secreted Signaling	87
+COMPLEX:P36894_Q16671	COMPLEX:AMHR2_BMPR1A	complex	CellChatDB	role	receptor	88
+COMPLEX:P36894_Q16671	COMPLEX:AMHR2_BMPR1A	complex	CellChatDB	pathway	AMH	88
+COMPLEX:P36894_Q16671	COMPLEX:AMHR2_BMPR1A	complex	CellChatDB	category	Secreted Signaling	88
+P39905	GDNF	protein	CellChatDB	role	ligand	89
+P39905	GDNF	protein	CellChatDB	pathway	GDNF	89
+P39905	GDNF	protein	CellChatDB	category	Secreted Signaling	89
+COMPLEX:P07949_P56159	COMPLEX:GFRA1_RET	complex	CellChatDB	role	receptor	90
+COMPLEX:P07949_P56159	COMPLEX:GFRA1_RET	complex	CellChatDB	pathway	GDNF	90
+COMPLEX:P07949_P56159	COMPLEX:GFRA1_RET	complex	CellChatDB	category	Secreted Signaling	90
+Q99748	NRTN	protein	CellChatDB	role	ligand	91
+Q99748	NRTN	protein	CellChatDB	pathway	GDNF	91
+Q99748	NRTN	protein	CellChatDB	category	Secreted Signaling	91
+COMPLEX:O00451_P07949	COMPLEX:GFRA2_RET	complex	CellChatDB	role	receptor	92
+COMPLEX:O00451_P07949	COMPLEX:GFRA2_RET	complex	CellChatDB	pathway	GDNF	92
+COMPLEX:O00451_P07949	COMPLEX:GFRA2_RET	complex	CellChatDB	category	Secreted Signaling	92
+Q5T4W7	ARTN	protein	CellChatDB	role	ligand	93
+Q5T4W7	ARTN	protein	CellChatDB	pathway	GDNF	93
+Q5T4W7	ARTN	protein	CellChatDB	category	Secreted Signaling	93
+COMPLEX:O60609_P07949	COMPLEX:GFRA3_RET	complex	CellChatDB	role	receptor	94
+COMPLEX:O60609_P07949	COMPLEX:GFRA3_RET	complex	CellChatDB	pathway	GDNF	94
+COMPLEX:O60609_P07949	COMPLEX:GFRA3_RET	complex	CellChatDB	category	Secreted Signaling	94
+O60542	PSPN	protein	CellChatDB	role	ligand	95
+O60542	PSPN	protein	CellChatDB	pathway	GDNF	95
+O60542	PSPN	protein	CellChatDB	category	Secreted Signaling	95
+COMPLEX:P07949_Q9GZZ7	COMPLEX:GFRA4_RET	complex	CellChatDB	role	receptor	96
+COMPLEX:P07949_Q9GZZ7	COMPLEX:GFRA4_RET	complex	CellChatDB	pathway	GDNF	96
+COMPLEX:P07949_Q9GZZ7	COMPLEX:GFRA4_RET	complex	CellChatDB	category	Secreted Signaling	96
+Q96S42	NODAL	protein	CellChatDB	role	ligand	97
+Q96S42	NODAL	protein	CellChatDB	pathway	NODAL	97
+Q96S42	NODAL	protein	CellChatDB	category	Secreted Signaling	97
+COMPLEX:P0CG37_P27037_P36896	COMPLEX:ACVR1B_ACVR2A_CFC1	complex	CellChatDB	role	receptor	98
+COMPLEX:P0CG37_P27037_P36896	COMPLEX:ACVR1B_ACVR2A_CFC1	complex	CellChatDB	pathway	NODAL	98
+COMPLEX:P0CG37_P27037_P36896	COMPLEX:ACVR1B_ACVR2A_CFC1	complex	CellChatDB	category	Secreted Signaling	98
+COMPLEX:P0CG37_P27037_Q8NER5	COMPLEX:ACVR1C_ACVR2A_CFC1	complex	CellChatDB	role	receptor	99
+COMPLEX:P0CG37_P27037_Q8NER5	COMPLEX:ACVR1C_ACVR2A_CFC1	complex	CellChatDB	pathway	NODAL	99
+COMPLEX:P0CG37_P27037_Q8NER5	COMPLEX:ACVR1C_ACVR2A_CFC1	complex	CellChatDB	category	Secreted Signaling	99
+COMPLEX:P0CG37_P36896_Q13705	COMPLEX:ACVR1B_ACVR2B_CFC1	complex	CellChatDB	role	receptor	100
+COMPLEX:P0CG37_P36896_Q13705	COMPLEX:ACVR1B_ACVR2B_CFC1	complex	CellChatDB	pathway	NODAL	100
+COMPLEX:P0CG37_P36896_Q13705	COMPLEX:ACVR1B_ACVR2B_CFC1	complex	CellChatDB	category	Secreted Signaling	100
+COMPLEX:P0CG37_Q13705_Q8NER5	COMPLEX:ACVR1C_ACVR2B_CFC1	complex	CellChatDB	role	receptor	101
+COMPLEX:P0CG37_Q13705_Q8NER5	COMPLEX:ACVR1C_ACVR2B_CFC1	complex	CellChatDB	pathway	NODAL	101
+COMPLEX:P0CG37_Q13705_Q8NER5	COMPLEX:ACVR1C_ACVR2B_CFC1	complex	CellChatDB	category	Secreted Signaling	101
+P27539	GDF1	protein	CellChatDB	role	ligand	102
+P27539	GDF1	protein	CellChatDB	pathway	NODAL	102
+P27539	GDF1	protein	CellChatDB	category	Secreted Signaling	102
+Q9NR23	GDF3	protein	CellChatDB	role	ligand	103
+Q9NR23	GDF3	protein	CellChatDB	pathway	NODAL	103
+Q9NR23	GDF3	protein	CellChatDB	category	Secreted Signaling	103
+COMPLEX:P27037_Q8NER5	COMPLEX:ACVR1C_ACVR2A	complex	CellChatDB	role	receptor	104
+COMPLEX:P27037_Q8NER5	COMPLEX:ACVR1C_ACVR2A	complex	CellChatDB	pathway	ACTIVIN	104
+COMPLEX:P27037_Q8NER5	COMPLEX:ACVR1C_ACVR2A	complex	CellChatDB	category	Secreted Signaling	104
+COMPLEX:Q13705_Q8NER5	COMPLEX:ACVR1C_ACVR2B	complex	CellChatDB	role	receptor	105
+COMPLEX:Q13705_Q8NER5	COMPLEX:ACVR1C_ACVR2B	complex	CellChatDB	pathway	ACTIVIN	105
+COMPLEX:Q13705_Q8NER5	COMPLEX:ACVR1C_ACVR2B	complex	CellChatDB	category	Secreted Signaling	105
+COMPLEX:P08476_P09529	COMPLEX:INHBA_INHBB	complex	CellChatDB	role	antagonist	106
+COMPLEX:P08476_P09529	COMPLEX:INHBA_INHBB	complex	CellChatDB	category	Secreted Signaling	106
+COMPLEX:P08476_P09529	COMPLEX:INHBA_INHBB	complex	CellChatDB	role	ligand	107
+COMPLEX:P08476_P09529	COMPLEX:INHBA_INHBB	complex	CellChatDB	category	Secreted Signaling	107
+COMPLEX:P05111_P08476	COMPLEX:INHA_INHBA	complex	CellChatDB	role	ligand	108
+COMPLEX:P05111_P08476	COMPLEX:INHA_INHBA	complex	CellChatDB	pathway	ACTIVIN	108
+COMPLEX:P05111_P08476	COMPLEX:INHA_INHBA	complex	CellChatDB	category	Secreted Signaling	108
+P27037	ACVR2A	protein	CellChatDB	role	receptor	109
+P27037	ACVR2A	protein	CellChatDB	pathway	ACTIVIN	109
+P27037	ACVR2A	protein	CellChatDB	category	Secreted Signaling	109
+COMPLEX:P05111_P09529	COMPLEX:INHA_INHBB	complex	CellChatDB	role	ligand	110
+COMPLEX:P05111_P09529	COMPLEX:INHA_INHBB	complex	CellChatDB	pathway	ACTIVIN	110
+COMPLEX:P05111_P09529	COMPLEX:INHA_INHBB	complex	CellChatDB	category	Secreted Signaling	110
+Q13705	ACVR2B	protein	CellChatDB	role	receptor	111
+Q13705	ACVR2B	protein	CellChatDB	pathway	ACTIVIN	111
+Q13705	ACVR2B	protein	CellChatDB	category	Secreted Signaling	111
+P04628	WNT1	protein	CellChatDB	role	ligand	112
+P04628	WNT1	protein	CellChatDB	pathway	WNT	112
+P04628	WNT1	protein	CellChatDB	category	Secreted Signaling	112
+COMPLEX:O75197_Q9UP38	COMPLEX:FZD1_LRP5	complex	CellChatDB	role	receptor	113
+COMPLEX:O75197_Q9UP38	COMPLEX:FZD1_LRP5	complex	CellChatDB	pathway	WNT	113
+COMPLEX:O75197_Q9UP38	COMPLEX:FZD1_LRP5	complex	CellChatDB	category	Secreted Signaling	113
+Q2MKA7	RSPO1	protein	CellChatDB	role	agonist	114
+Q2MKA7	RSPO1	protein	CellChatDB	pathway	WNT	114
+Q2MKA7	RSPO1	protein	CellChatDB	category	Secreted Signaling	114
+Q9BXY4	RSPO3	protein	CellChatDB	role	agonist	115
+Q9BXY4	RSPO3	protein	CellChatDB	pathway	WNT	115
+Q9BXY4	RSPO3	protein	CellChatDB	category	Secreted Signaling	115
+Q2I0M5	RSPO4	protein	CellChatDB	role	agonist	116
+Q2I0M5	RSPO4	protein	CellChatDB	pathway	WNT	116
+Q2I0M5	RSPO4	protein	CellChatDB	category	Secreted Signaling	116
+Q6UXX9	RSPO2	protein	CellChatDB	role	agonist	117
+Q6UXX9	RSPO2	protein	CellChatDB	pathway	WNT	117
+Q6UXX9	RSPO2	protein	CellChatDB	category	Secreted Signaling	117
+Q9H237	PORCN	protein	CellChatDB	role	agonist	118
+Q9H237	PORCN	protein	CellChatDB	pathway	WNT	118
+Q9H237	PORCN	protein	CellChatDB	category	Secreted Signaling	118
+Q9UBU2	DKK2	protein	CellChatDB	role	antagonist	119
+Q9UBU2	DKK2	protein	CellChatDB	pathway	WNT	119
+Q9UBU2	DKK2	protein	CellChatDB	category	Secreted Signaling	119
+Q6P988	NOTUM	protein	CellChatDB	role	antagonist	120
+Q6P988	NOTUM	protein	CellChatDB	pathway	WNT	120
+Q6P988	NOTUM	protein	CellChatDB	category	Secreted Signaling	120
+Q8N474	SFRP1	protein	CellChatDB	role	antagonist	121
+Q8N474	SFRP1	protein	CellChatDB	pathway	WNT	121
+Q8N474	SFRP1	protein	CellChatDB	category	Secreted Signaling	121
+Q6FHJ7	SFRP4	protein	CellChatDB	role	antagonist	122
+Q6FHJ7	SFRP4	protein	CellChatDB	pathway	WNT	122
+Q6FHJ7	SFRP4	protein	CellChatDB	category	Secreted Signaling	122
+P36955	SERPINF1	protein	CellChatDB	role	antagonist	123
+P36955	SERPINF1	protein	CellChatDB	pathway	WNT	123
+P36955	SERPINF1	protein	CellChatDB	category	Secreted Signaling	123
+O94907	DKK1	protein	CellChatDB	role	antagonist	124
+O94907	DKK1	protein	CellChatDB	pathway	WNT	124
+O94907	DKK1	protein	CellChatDB	category	Secreted Signaling	124
+P22692	IGFBP4	protein	CellChatDB	role	antagonist	125
+P22692	IGFBP4	protein	CellChatDB	pathway	WNT	125
+P22692	IGFBP4	protein	CellChatDB	category	Secreted Signaling	125
+P22692	IGFBP4	protein	CellChatDB	role	antagonist	126
+P22692	IGFBP4	protein	CellChatDB	pathway	IGF	126
+P22692	IGFBP4	protein	CellChatDB	category	Secreted Signaling	126
+O95813	CER1	protein	CellChatDB	role	antagonist	127
+O95813	CER1	protein	CellChatDB	pathway	WNT	127
+O95813	CER1	protein	CellChatDB	category	Secreted Signaling	127
+Q9UBT3	DKK4	protein	CellChatDB	role	antagonist	128
+Q9UBT3	DKK4	protein	CellChatDB	pathway	WNT	128
+Q9UBT3	DKK4	protein	CellChatDB	category	Secreted Signaling	128
+Q8NBI3	DRAXIN	protein	CellChatDB	role	antagonist	129
+Q8NBI3	DRAXIN	protein	CellChatDB	pathway	WNT	129
+Q8NBI3	DRAXIN	protein	CellChatDB	category	Secreted Signaling	129
+Q92765	FRZB	protein	CellChatDB	role	antagonist	130
+Q92765	FRZB	protein	CellChatDB	pathway	WNT	130
+Q92765	FRZB	protein	CellChatDB	category	Secreted Signaling	130
+Q5T4F7	SFRP5	protein	CellChatDB	role	antagonist	131
+Q5T4F7	SFRP5	protein	CellChatDB	pathway	WNT	131
+Q5T4F7	SFRP5	protein	CellChatDB	category	Secreted Signaling	131
+Q9Y5W5	WIF1	protein	CellChatDB	role	antagonist	132
+Q9Y5W5	WIF1	protein	CellChatDB	pathway	WNT	132
+Q9Y5W5	WIF1	protein	CellChatDB	category	Secreted Signaling	132
+Q9BQB4	SOST	protein	CellChatDB	role	antagonist	133
+Q9BQB4	SOST	protein	CellChatDB	pathway	WNT	133
+Q9BQB4	SOST	protein	CellChatDB	category	Secreted Signaling	133
+Q6X4U4	SOSTDC1	protein	CellChatDB	role	antagonist	134
+Q6X4U4	SOSTDC1	protein	CellChatDB	pathway	WNT	134
+Q6X4U4	SOSTDC1	protein	CellChatDB	category	Secreted Signaling	134
+Q96HF1	SFRP2	protein	CellChatDB	role	antagonist	135
+Q96HF1	SFRP2	protein	CellChatDB	pathway	WNT	135
+Q96HF1	SFRP2	protein	CellChatDB	category	Secreted Signaling	135
+Q9ULT6	ZNRF3	protein	CellChatDB	role	co_I_receptor	136
+Q9ULT6	ZNRF3	protein	CellChatDB	pathway	WNT	136
+Q9ULT6	ZNRF3	protein	CellChatDB	category	Secreted Signaling	136
+Q68DV7	RNF43	protein	CellChatDB	role	co_I_receptor	137
+Q68DV7	RNF43	protein	CellChatDB	pathway	WNT	137
+Q68DV7	RNF43	protein	CellChatDB	category	Secreted Signaling	137
+Q8J025	APCDD1	protein	CellChatDB	role	co_I_receptor	138
+Q8J025	APCDD1	protein	CellChatDB	pathway	WNT	138
+Q8J025	APCDD1	protein	CellChatDB	category	Secreted Signaling	138
+COMPLEX:O75197_Q9ULW2	COMPLEX:FZD10_LRP5	complex	CellChatDB	role	receptor	139
+COMPLEX:O75197_Q9ULW2	COMPLEX:FZD10_LRP5	complex	CellChatDB	pathway	WNT	139
+COMPLEX:O75197_Q9ULW2	COMPLEX:FZD10_LRP5	complex	CellChatDB	category	Secreted Signaling	139
+COMPLEX:O75197_Q14332	COMPLEX:FZD2_LRP5	complex	CellChatDB	role	receptor	140
+COMPLEX:O75197_Q14332	COMPLEX:FZD2_LRP5	complex	CellChatDB	pathway	WNT	140
+COMPLEX:O75197_Q14332	COMPLEX:FZD2_LRP5	complex	CellChatDB	category	Secreted Signaling	140
+COMPLEX:O75197_Q9NPG1	COMPLEX:FZD3_LRP5	complex	CellChatDB	role	receptor	141
+COMPLEX:O75197_Q9NPG1	COMPLEX:FZD3_LRP5	complex	CellChatDB	pathway	WNT	141
+COMPLEX:O75197_Q9NPG1	COMPLEX:FZD3_LRP5	complex	CellChatDB	category	Secreted Signaling	141
+COMPLEX:O75197_Q9ULV1	COMPLEX:FZD4_LRP5	complex	CellChatDB	role	receptor	142
+COMPLEX:O75197_Q9ULV1	COMPLEX:FZD4_LRP5	complex	CellChatDB	pathway	WNT	142
+COMPLEX:O75197_Q9ULV1	COMPLEX:FZD4_LRP5	complex	CellChatDB	category	Secreted Signaling	142
+COMPLEX:O75197_Q13467	COMPLEX:FZD5_LRP5	complex	CellChatDB	role	receptor	143
+COMPLEX:O75197_Q13467	COMPLEX:FZD5_LRP5	complex	CellChatDB	pathway	WNT	143
+COMPLEX:O75197_Q13467	COMPLEX:FZD5_LRP5	complex	CellChatDB	category	Secreted Signaling	143
+COMPLEX:O60353_O75197	COMPLEX:FZD6_LRP5	complex	CellChatDB	role	receptor	144
+COMPLEX:O60353_O75197	COMPLEX:FZD6_LRP5	complex	CellChatDB	pathway	WNT	144
+COMPLEX:O60353_O75197	COMPLEX:FZD6_LRP5	complex	CellChatDB	category	Secreted Signaling	144
+COMPLEX:O75084_O75197	COMPLEX:FZD7_LRP5	complex	CellChatDB	role	receptor	145
+COMPLEX:O75084_O75197	COMPLEX:FZD7_LRP5	complex	CellChatDB	pathway	WNT	145
+COMPLEX:O75084_O75197	COMPLEX:FZD7_LRP5	complex	CellChatDB	category	Secreted Signaling	145
+COMPLEX:O75197_Q9H461	COMPLEX:FZD8_LRP5	complex	CellChatDB	role	receptor	146
+COMPLEX:O75197_Q9H461	COMPLEX:FZD8_LRP5	complex	CellChatDB	pathway	WNT	146
+COMPLEX:O75197_Q9H461	COMPLEX:FZD8_LRP5	complex	CellChatDB	category	Secreted Signaling	146
+COMPLEX:O00144_O75197	COMPLEX:FZD9_LRP5	complex	CellChatDB	role	receptor	147
+COMPLEX:O00144_O75197	COMPLEX:FZD9_LRP5	complex	CellChatDB	pathway	WNT	147
+COMPLEX:O00144_O75197	COMPLEX:FZD9_LRP5	complex	CellChatDB	category	Secreted Signaling	147
+Q9GZT5	WNT10A	protein	CellChatDB	role	ligand	148
+Q9GZT5	WNT10A	protein	CellChatDB	pathway	WNT	148
+Q9GZT5	WNT10A	protein	CellChatDB	category	Secreted Signaling	148
+O00744	WNT10B	protein	CellChatDB	role	ligand	149
+O00744	WNT10B	protein	CellChatDB	pathway	WNT	149
+O00744	WNT10B	protein	CellChatDB	category	Secreted Signaling	149
+Q9UBV4	WNT16	protein	CellChatDB	role	ligand	150
+Q9UBV4	WNT16	protein	CellChatDB	pathway	WNT	150
+Q9UBV4	WNT16	protein	CellChatDB	category	Secreted Signaling	150
+P09544	WNT2	protein	CellChatDB	role	ligand	151
+P09544	WNT2	protein	CellChatDB	pathway	WNT	151
+P09544	WNT2	protein	CellChatDB	category	Secreted Signaling	151
+Q93097	WNT2B	protein	CellChatDB	role	ligand	152
+Q93097	WNT2B	protein	CellChatDB	pathway	WNT	152
+Q93097	WNT2B	protein	CellChatDB	category	Secreted Signaling	152
+P56703	WNT3	protein	CellChatDB	role	ligand	153
+P56703	WNT3	protein	CellChatDB	pathway	WNT	153
+P56703	WNT3	protein	CellChatDB	category	Secreted Signaling	153
+P56704	WNT3A	protein	CellChatDB	role	ligand	154
+P56704	WNT3A	protein	CellChatDB	pathway	WNT	154
+P56704	WNT3A	protein	CellChatDB	category	Secreted Signaling	154
+P56705	WNT4	protein	CellChatDB	role	ligand	155
+P56705	WNT4	protein	CellChatDB	pathway	WNT	155
+P56705	WNT4	protein	CellChatDB	category	Secreted Signaling	155
+Q9Y6F9	WNT6	protein	CellChatDB	role	ligand	156
+Q9Y6F9	WNT6	protein	CellChatDB	pathway	WNT	156
+Q9Y6F9	WNT6	protein	CellChatDB	category	Secreted Signaling	156
+O00755	WNT7A	protein	CellChatDB	role	ligand	157
+O00755	WNT7A	protein	CellChatDB	pathway	WNT	157
+O00755	WNT7A	protein	CellChatDB	category	Secreted Signaling	157
+P56706	WNT7B	protein	CellChatDB	role	ligand	158
+P56706	WNT7B	protein	CellChatDB	pathway	WNT	158
+P56706	WNT7B	protein	CellChatDB	category	Secreted Signaling	158
+Q9H1J5	WNT8A	protein	CellChatDB	role	ligand	159
+Q9H1J5	WNT8A	protein	CellChatDB	pathway	WNT	159
+Q9H1J5	WNT8A	protein	CellChatDB	category	Secreted Signaling	159
+Q93098	WNT8B	protein	CellChatDB	role	ligand	160
+Q93098	WNT8B	protein	CellChatDB	pathway	WNT	160
+Q93098	WNT8B	protein	CellChatDB	category	Secreted Signaling	160
+O14904	WNT9A	protein	CellChatDB	role	ligand	161
+O14904	WNT9A	protein	CellChatDB	pathway	WNT	161
+O14904	WNT9A	protein	CellChatDB	category	Secreted Signaling	161
+O14905	WNT9B	protein	CellChatDB	role	ligand	162
+O14905	WNT9B	protein	CellChatDB	pathway	WNT	162
+O14905	WNT9B	protein	CellChatDB	category	Secreted Signaling	162
+COMPLEX:O75581_Q9UP38	COMPLEX:FZD1_LRP6	complex	CellChatDB	role	receptor	163
+COMPLEX:O75581_Q9UP38	COMPLEX:FZD1_LRP6	complex	CellChatDB	pathway	WNT	163
+COMPLEX:O75581_Q9UP38	COMPLEX:FZD1_LRP6	complex	CellChatDB	category	Secreted Signaling	163
+COMPLEX:O75581_Q9ULW2	COMPLEX:FZD10_LRP6	complex	CellChatDB	role	receptor	164
+COMPLEX:O75581_Q9ULW2	COMPLEX:FZD10_LRP6	complex	CellChatDB	pathway	WNT	164
+COMPLEX:O75581_Q9ULW2	COMPLEX:FZD10_LRP6	complex	CellChatDB	category	Secreted Signaling	164
+COMPLEX:O75581_Q14332	COMPLEX:FZD2_LRP6	complex	CellChatDB	role	receptor	165
+COMPLEX:O75581_Q14332	COMPLEX:FZD2_LRP6	complex	CellChatDB	pathway	WNT	165
+COMPLEX:O75581_Q14332	COMPLEX:FZD2_LRP6	complex	CellChatDB	category	Secreted Signaling	165
+COMPLEX:O75581_Q9NPG1	COMPLEX:FZD3_LRP6	complex	CellChatDB	role	receptor	166
+COMPLEX:O75581_Q9NPG1	COMPLEX:FZD3_LRP6	complex	CellChatDB	pathway	WNT	166
+COMPLEX:O75581_Q9NPG1	COMPLEX:FZD3_LRP6	complex	CellChatDB	category	Secreted Signaling	166
+COMPLEX:O75581_Q9ULV1	COMPLEX:FZD4_LRP6	complex	CellChatDB	role	receptor	167
+COMPLEX:O75581_Q9ULV1	COMPLEX:FZD4_LRP6	complex	CellChatDB	pathway	WNT	167
+COMPLEX:O75581_Q9ULV1	COMPLEX:FZD4_LRP6	complex	CellChatDB	category	Secreted Signaling	167
+COMPLEX:O75581_Q13467	COMPLEX:FZD5_LRP6	complex	CellChatDB	role	receptor	168
+COMPLEX:O75581_Q13467	COMPLEX:FZD5_LRP6	complex	CellChatDB	pathway	WNT	168
+COMPLEX:O75581_Q13467	COMPLEX:FZD5_LRP6	complex	CellChatDB	category	Secreted Signaling	168
+COMPLEX:O60353_O75581	COMPLEX:FZD6_LRP6	complex	CellChatDB	role	receptor	169
+COMPLEX:O60353_O75581	COMPLEX:FZD6_LRP6	complex	CellChatDB	pathway	WNT	169
+COMPLEX:O60353_O75581	COMPLEX:FZD6_LRP6	complex	CellChatDB	category	Secreted Signaling	169
+COMPLEX:O75084_O75581	COMPLEX:FZD7_LRP6	complex	CellChatDB	role	receptor	170
+COMPLEX:O75084_O75581	COMPLEX:FZD7_LRP6	complex	CellChatDB	pathway	WNT	170
+COMPLEX:O75084_O75581	COMPLEX:FZD7_LRP6	complex	CellChatDB	category	Secreted Signaling	170
+COMPLEX:O75581_Q9H461	COMPLEX:FZD8_LRP6	complex	CellChatDB	role	receptor	171
+COMPLEX:O75581_Q9H461	COMPLEX:FZD8_LRP6	complex	CellChatDB	pathway	WNT	171
+COMPLEX:O75581_Q9H461	COMPLEX:FZD8_LRP6	complex	CellChatDB	category	Secreted Signaling	171
+COMPLEX:O00144_O75581	COMPLEX:FZD9_LRP6	complex	CellChatDB	role	receptor	172
+COMPLEX:O00144_O75581	COMPLEX:FZD9_LRP6	complex	CellChatDB	pathway	WNT	172
+COMPLEX:O00144_O75581	COMPLEX:FZD9_LRP6	complex	CellChatDB	category	Secreted Signaling	172
+P41221	WNT5A	protein	CellChatDB	role	ligand	173
+P41221	WNT5A	protein	CellChatDB	pathway	ncWNT	173
+P41221	WNT5A	protein	CellChatDB	category	Secreted Signaling	173
+Q9UP38	FZD1	protein	CellChatDB	role	receptor	174
+Q9UP38	FZD1	protein	CellChatDB	pathway	ncWNT	174
+Q9UP38	FZD1	protein	CellChatDB	category	Secreted Signaling	174
+P34925	RYK	protein	CellChatDB	role	co_A_receptor	175
+P34925	RYK	protein	CellChatDB	pathway	ncWNT	175
+P34925	RYK	protein	CellChatDB	category	Secreted Signaling	175
+Q01973	ROR1	protein	CellChatDB	role	co_A_receptor	176
+Q01973	ROR1	protein	CellChatDB	pathway	ncWNT	176
+Q01973	ROR1	protein	CellChatDB	category	Secreted Signaling	176
+Q01974	ROR2	protein	CellChatDB	role	co_A_receptor	177
+Q01974	ROR2	protein	CellChatDB	pathway	ncWNT	177
+Q01974	ROR2	protein	CellChatDB	category	Secreted Signaling	177
+Q9ULW2	FZD10	protein	CellChatDB	role	receptor	178
+Q9ULW2	FZD10	protein	CellChatDB	pathway	ncWNT	178
+Q9ULW2	FZD10	protein	CellChatDB	category	Secreted Signaling	178
+Q14332	FZD2	protein	CellChatDB	role	receptor	179
+Q14332	FZD2	protein	CellChatDB	pathway	ncWNT	179
+Q14332	FZD2	protein	CellChatDB	category	Secreted Signaling	179
+Q9NPG1	FZD3	protein	CellChatDB	role	receptor	180
+Q9NPG1	FZD3	protein	CellChatDB	pathway	ncWNT	180
+Q9NPG1	FZD3	protein	CellChatDB	category	Secreted Signaling	180
+Q9ULV1	FZD4	protein	CellChatDB	role	receptor	181
+Q9ULV1	FZD4	protein	CellChatDB	pathway	ncWNT	181
+Q9ULV1	FZD4	protein	CellChatDB	category	Secreted Signaling	181
+Q13467	FZD5	protein	CellChatDB	role	receptor	182
+Q13467	FZD5	protein	CellChatDB	pathway	ncWNT	182
+Q13467	FZD5	protein	CellChatDB	category	Secreted Signaling	182
+O60353	FZD6	protein	CellChatDB	role	receptor	183
+O60353	FZD6	protein	CellChatDB	pathway	ncWNT	183
+O60353	FZD6	protein	CellChatDB	category	Secreted Signaling	183
+O75084	FZD7	protein	CellChatDB	role	receptor	184
+O75084	FZD7	protein	CellChatDB	pathway	ncWNT	184
+O75084	FZD7	protein	CellChatDB	category	Secreted Signaling	184
+Q9H461	FZD8	protein	CellChatDB	role	receptor	185
+Q9H461	FZD8	protein	CellChatDB	pathway	ncWNT	185
+Q9H461	FZD8	protein	CellChatDB	category	Secreted Signaling	185
+O00144	FZD9	protein	CellChatDB	role	receptor	186
+O00144	FZD9	protein	CellChatDB	pathway	ncWNT	186
+O00144	FZD9	protein	CellChatDB	category	Secreted Signaling	186
+P43121	MCAM	protein	CellChatDB	role	receptor	187
+P43121	MCAM	protein	CellChatDB	pathway	ncWNT	187
+P43121	MCAM	protein	CellChatDB	category	Secreted Signaling	187
+Q9H1J7	WNT5B	protein	CellChatDB	role	ligand	188
+Q9H1J7	WNT5B	protein	CellChatDB	pathway	ncWNT	188
+Q9H1J7	WNT5B	protein	CellChatDB	category	Secreted Signaling	188
+O96014	WNT11	protein	CellChatDB	role	ligand	189
+O96014	WNT11	protein	CellChatDB	pathway	ncWNT	189
+O96014	WNT11	protein	CellChatDB	category	Secreted Signaling	189
+P01133	EGF	protein	CellChatDB	role	ligand	190
+P01133	EGF	protein	CellChatDB	pathway	EGF	190
+P01133	EGF	protein	CellChatDB	category	Secreted Signaling	190
+P00533	EGFR	protein	CellChatDB	role	receptor	191
+P00533	EGFR	protein	CellChatDB	pathway	EPGN	191
+P00533	EGFR	protein	CellChatDB	category	Cell-Cell Contact	191
+P00533	EGFR	protein	CellChatDB	role	receptor	192
+P00533	EGFR	protein	CellChatDB	pathway	EGF	192
+P00533	EGFR	protein	CellChatDB	category	Secreted Signaling	192
+COMPLEX:P00533_P04626	COMPLEX:EGFR_ERBB2	complex	CellChatDB	role	receptor	193
+COMPLEX:P00533_P04626	COMPLEX:EGFR_ERBB2	complex	CellChatDB	pathway	EGF	193
+COMPLEX:P00533_P04626	COMPLEX:EGFR_ERBB2	complex	CellChatDB	category	Secreted Signaling	193
+P01135	TGFA	protein	CellChatDB	role	ligand	194
+P01135	TGFA	protein	CellChatDB	pathway	EGF	194
+P01135	TGFA	protein	CellChatDB	category	Secreted Signaling	194
+P15514	AREG	protein	CellChatDB	role	ligand	195
+P15514	AREG	protein	CellChatDB	pathway	EGF	195
+P15514	AREG	protein	CellChatDB	category	Secreted Signaling	195
+P35070	BTC	protein	CellChatDB	role	ligand	196
+P35070	BTC	protein	CellChatDB	pathway	EGF	196
+P35070	BTC	protein	CellChatDB	category	Secreted Signaling	196
+Q15303	ERBB4	protein	CellChatDB	role	receptor	197
+Q15303	ERBB4	protein	CellChatDB	pathway	EGF	197
+Q15303	ERBB4	protein	CellChatDB	category	Secreted Signaling	197
+Q15303	ERBB4	protein	CellChatDB	role	receptor	198
+Q15303	ERBB4	protein	CellChatDB	pathway	NRG	198
+Q15303	ERBB4	protein	CellChatDB	category	Secreted Signaling	198
+COMPLEX:P04626_Q15303	COMPLEX:ERBB2_ERBB4	complex	CellChatDB	role	receptor	199
+COMPLEX:P04626_Q15303	COMPLEX:ERBB2_ERBB4	complex	CellChatDB	pathway	EGF	199
+COMPLEX:P04626_Q15303	COMPLEX:ERBB2_ERBB4	complex	CellChatDB	category	Secreted Signaling	199
+COMPLEX:P04626_Q15303	COMPLEX:ERBB2_ERBB4	complex	CellChatDB	role	receptor	200
+COMPLEX:P04626_Q15303	COMPLEX:ERBB2_ERBB4	complex	CellChatDB	pathway	NRG	200
+COMPLEX:P04626_Q15303	COMPLEX:ERBB2_ERBB4	complex	CellChatDB	category	Secreted Signaling	200
+Q99075	HBEGF	protein	CellChatDB	role	ligand	201
+Q99075	HBEGF	protein	CellChatDB	pathway	EGF	201
+Q99075	HBEGF	protein	CellChatDB	category	Secreted Signaling	201
+O14944	EREG	protein	CellChatDB	role	ligand	202
+O14944	EREG	protein	CellChatDB	pathway	EGF	202
+O14944	EREG	protein	CellChatDB	category	Secreted Signaling	202
+Q02297	NRG1	protein	CellChatDB	role	ligand	203
+Q02297	NRG1	protein	CellChatDB	pathway	NRG	203
+Q02297	NRG1	protein	CellChatDB	category	Secreted Signaling	203
+P21860	ERBB3	protein	CellChatDB	role	receptor	204
+P21860	ERBB3	protein	CellChatDB	pathway	NRG	204
+P21860	ERBB3	protein	CellChatDB	category	Secreted Signaling	204
+COMPLEX:P04626_P21860	COMPLEX:ERBB2_ERBB3	complex	CellChatDB	role	receptor	205
+COMPLEX:P04626_P21860	COMPLEX:ERBB2_ERBB3	complex	CellChatDB	pathway	NRG	205
+COMPLEX:P04626_P21860	COMPLEX:ERBB2_ERBB3	complex	CellChatDB	category	Secreted Signaling	205
+O14511	NRG2	protein	CellChatDB	role	ligand	206
+O14511	NRG2	protein	CellChatDB	pathway	NRG	206
+O14511	NRG2	protein	CellChatDB	category	Secreted Signaling	206
+P56975	NRG3	protein	CellChatDB	role	ligand	207
+P56975	NRG3	protein	CellChatDB	pathway	NRG	207
+P56975	NRG3	protein	CellChatDB	category	Secreted Signaling	207
+Q8WWG1	NRG4	protein	CellChatDB	role	ligand	208
+Q8WWG1	NRG4	protein	CellChatDB	pathway	NRG	208
+Q8WWG1	NRG4	protein	CellChatDB	category	Secreted Signaling	208
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	209
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	CD23	209
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	Cell-Cell Contact	209
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	210
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	THY1	210
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	Cell-Cell Contact	210
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	211
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	PERIOSTIN	211
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	Secreted Signaling	211
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	212
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	DMP1	212
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	ECM-Receptor	212
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	213
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	L1CAM	213
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	Cell-Cell Contact	213
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	214
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	VTN	214
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	ECM-Receptor	214
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	215
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	THBS	215
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	ECM-Receptor	215
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	216
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	SPP1	216
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	Secreted Signaling	216
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	217
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	TENASCIN	217
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	ECM-Receptor	217
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	218
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	VWF	218
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	ECM-Receptor	218
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	219
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	IGF	219
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	Secreted Signaling	219
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	220
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	ANGPTL	220
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	Secreted Signaling	220
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	221
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	BSP	221
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	ECM-Receptor	221
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	222
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	PTN	222
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	Secreted Signaling	222
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	223
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	FN1	223
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	ECM-Receptor	223
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	role	receptor	224
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	pathway	NRG	224
+COMPLEX:P05106_P06756	COMPLEX:ITGAV_ITGB3	complex	CellChatDB	category	Secreted Signaling	224
+P05230	FGF1	protein	CellChatDB	role	ligand	225
+P05230	FGF1	protein	CellChatDB	pathway	FGF	225
+P05230	FGF1	protein	CellChatDB	category	Secreted Signaling	225
+P11362	FGFR1	protein	CellChatDB	role	receptor	226
+P11362	FGFR1	protein	CellChatDB	pathway	NCAM	226
+P11362	FGFR1	protein	CellChatDB	category	Cell-Cell Contact	226
+P11362	FGFR1	protein	CellChatDB	role	receptor	227
+P11362	FGFR1	protein	CellChatDB	pathway	FGF	227
+P11362	FGFR1	protein	CellChatDB	category	Secreted Signaling	227
+Q8NFM7	IL17RD	protein	CellChatDB	role	co_I_receptor	228
+Q8NFM7	IL17RD	protein	CellChatDB	pathway	FGF	228
+Q8NFM7	IL17RD	protein	CellChatDB	category	Secreted Signaling	228
+P21802	FGFR2	protein	CellChatDB	role	receptor	229
+P21802	FGFR2	protein	CellChatDB	pathway	FGF	229
+P21802	FGFR2	protein	CellChatDB	category	Secreted Signaling	229
+P22607	FGFR3	protein	CellChatDB	role	receptor	230
+P22607	FGFR3	protein	CellChatDB	pathway	FGF	230
+P22607	FGFR3	protein	CellChatDB	category	Secreted Signaling	230
+P22455	FGFR4	protein	CellChatDB	role	receptor	231
+P22455	FGFR4	protein	CellChatDB	pathway	FGF	231
+P22455	FGFR4	protein	CellChatDB	category	Secreted Signaling	231
+P09038	FGF2	protein	CellChatDB	role	ligand	232
+P09038	FGF2	protein	CellChatDB	pathway	FGF	232
+P09038	FGF2	protein	CellChatDB	category	Secreted Signaling	232
+P08620	FGF4	protein	CellChatDB	role	ligand	233
+P08620	FGF4	protein	CellChatDB	pathway	FGF	233
+P08620	FGF4	protein	CellChatDB	category	Secreted Signaling	233
+P12034	FGF5	protein	CellChatDB	role	ligand	234
+P12034	FGF5	protein	CellChatDB	pathway	FGF	234
+P12034	FGF5	protein	CellChatDB	category	Secreted Signaling	234
+P10767	FGF6	protein	CellChatDB	role	ligand	235
+P10767	FGF6	protein	CellChatDB	pathway	FGF	235
+P10767	FGF6	protein	CellChatDB	category	Secreted Signaling	235
+P21781	FGF7	protein	CellChatDB	role	ligand	236
+P21781	FGF7	protein	CellChatDB	pathway	FGF	236
+P21781	FGF7	protein	CellChatDB	category	Secreted Signaling	236
+P11487	FGF3	protein	CellChatDB	role	ligand	237
+P11487	FGF3	protein	CellChatDB	pathway	FGF	237
+P11487	FGF3	protein	CellChatDB	category	Secreted Signaling	237
+O15520	FGF10	protein	CellChatDB	role	ligand	238
+O15520	FGF10	protein	CellChatDB	pathway	FGF	238
+O15520	FGF10	protein	CellChatDB	category	Secreted Signaling	238
+Q9HCT0	FGF22	protein	CellChatDB	role	ligand	239
+Q9HCT0	FGF22	protein	CellChatDB	pathway	FGF	239
+Q9HCT0	FGF22	protein	CellChatDB	category	Secreted Signaling	239
+P55075	FGF8	protein	CellChatDB	role	ligand	240
+P55075	FGF8	protein	CellChatDB	pathway	FGF	240
+P55075	FGF8	protein	CellChatDB	category	Secreted Signaling	240
+O60258	FGF17	protein	CellChatDB	role	ligand	241
+O60258	FGF17	protein	CellChatDB	pathway	FGF	241
+O60258	FGF17	protein	CellChatDB	category	Secreted Signaling	241
+O76093	FGF18	protein	CellChatDB	role	ligand	242
+O76093	FGF18	protein	CellChatDB	pathway	FGF	242
+O76093	FGF18	protein	CellChatDB	category	Secreted Signaling	242
+P31371	FGF9	protein	CellChatDB	role	ligand	243
+P31371	FGF9	protein	CellChatDB	pathway	FGF	243
+P31371	FGF9	protein	CellChatDB	category	Secreted Signaling	243
+Q9NP95	FGF20	protein	CellChatDB	role	ligand	244
+Q9NP95	FGF20	protein	CellChatDB	pathway	FGF	244
+Q9NP95	FGF20	protein	CellChatDB	category	Secreted Signaling	244
+O43320	FGF16	protein	CellChatDB	role	ligand	245
+O43320	FGF16	protein	CellChatDB	pathway	FGF	245
+O43320	FGF16	protein	CellChatDB	category	Secreted Signaling	245
+O95750	FGF19	protein	CellChatDB	role	ligand	246
+O95750	FGF19	protein	CellChatDB	pathway	FGF	246
+O95750	FGF19	protein	CellChatDB	category	Secreted Signaling	246
+Q86Z14	KLB	protein	CellChatDB	role	co_A_receptor	247
+Q86Z14	KLB	protein	CellChatDB	pathway	FGF	247
+Q86Z14	KLB	protein	CellChatDB	category	Secreted Signaling	247
+Q9NSA1	FGF21	protein	CellChatDB	role	ligand	248
+Q9NSA1	FGF21	protein	CellChatDB	pathway	FGF	248
+Q9NSA1	FGF21	protein	CellChatDB	category	Secreted Signaling	248
+Q9GZV9	FGF23	protein	CellChatDB	role	ligand	249
+Q9GZV9	FGF23	protein	CellChatDB	pathway	FGF	249
+Q9GZV9	FGF23	protein	CellChatDB	category	Secreted Signaling	249
+Q9UEF7	KL	protein	CellChatDB	role	co_A_receptor	250
+Q9UEF7	KL	protein	CellChatDB	pathway	FGF	250
+Q9UEF7	KL	protein	CellChatDB	category	Secreted Signaling	250
+P04085	PDGFA	protein	CellChatDB	role	ligand	251
+P04085	PDGFA	protein	CellChatDB	pathway	PDGF	251
+P04085	PDGFA	protein	CellChatDB	category	Secreted Signaling	251
+P16234	PDGFRA	protein	CellChatDB	role	receptor	252
+P16234	PDGFRA	protein	CellChatDB	pathway	PDGF	252
+P16234	PDGFRA	protein	CellChatDB	category	Secreted Signaling	252
+P09486	SPARC	protein	CellChatDB	role	antagonist	253
+P09486	SPARC	protein	CellChatDB	pathway	PDGF	253
+P09486	SPARC	protein	CellChatDB	category	Secreted Signaling	253
+P09619	PDGFRB	protein	CellChatDB	role	receptor	254
+P09619	PDGFRB	protein	CellChatDB	pathway	PDGF	254
+P09619	PDGFRB	protein	CellChatDB	category	Secreted Signaling	254
+P01127	PDGFB	protein	CellChatDB	role	ligand	255
+P01127	PDGFB	protein	CellChatDB	pathway	PDGF	255
+P01127	PDGFB	protein	CellChatDB	category	Secreted Signaling	255
+Q9NRA1	PDGFC	protein	CellChatDB	role	ligand	256
+Q9NRA1	PDGFC	protein	CellChatDB	pathway	PDGF	256
+Q9NRA1	PDGFC	protein	CellChatDB	category	Secreted Signaling	256
+Q9GZP0	PDGFD	protein	CellChatDB	role	ligand	257
+Q9GZP0	PDGFD	protein	CellChatDB	pathway	PDGF	257
+Q9GZP0	PDGFD	protein	CellChatDB	category	Secreted Signaling	257
+P15692	VEGFA	protein	CellChatDB	role	ligand	258
+P15692	VEGFA	protein	CellChatDB	pathway	VEGF	258
+P15692	VEGFA	protein	CellChatDB	category	Secreted Signaling	258
+P17948	FLT1	protein	CellChatDB	role	receptor	259
+P17948	FLT1	protein	CellChatDB	pathway	VEGF	259
+P17948	FLT1	protein	CellChatDB	category	Secreted Signaling	259
+P35968	KDR	protein	CellChatDB	role	receptor	260
+P35968	KDR	protein	CellChatDB	pathway	VEGF	260
+P35968	KDR	protein	CellChatDB	category	Secreted Signaling	260
+O14786	NRP1	protein	CellChatDB	role	co_A_receptor	261
+O14786	NRP1	protein	CellChatDB	pathway	VEGF	261
+O14786	NRP1	protein	CellChatDB	category	Secreted Signaling	261
+O60462	NRP2	protein	CellChatDB	role	co_A_receptor	262
+O60462	NRP2	protein	CellChatDB	pathway	VEGF	262
+O60462	NRP2	protein	CellChatDB	category	Secreted Signaling	262
+P49765	VEGFB	protein	CellChatDB	role	ligand	263
+P49765	VEGFB	protein	CellChatDB	pathway	VEGF	263
+P49765	VEGFB	protein	CellChatDB	category	Secreted Signaling	263
+P49767	VEGFC	protein	CellChatDB	role	ligand	264
+P49767	VEGFC	protein	CellChatDB	pathway	VEGF	264
+P49767	VEGFC	protein	CellChatDB	category	Secreted Signaling	264
+P35916	FLT4	protein	CellChatDB	role	receptor	265
+P35916	FLT4	protein	CellChatDB	pathway	VEGF	265
+P35916	FLT4	protein	CellChatDB	category	Secreted Signaling	265
+O43915	VEGFD	protein	CellChatDB	role	ligand	266
+O43915	VEGFD	protein	CellChatDB	pathway	VEGF	266
+O43915	VEGFD	protein	CellChatDB	category	Secreted Signaling	266
+P49763	PGF	protein	CellChatDB	role	ligand	267
+P49763	PGF	protein	CellChatDB	pathway	VEGF	267
+P49763	PGF	protein	CellChatDB	category	Secreted Signaling	267
+COMPLEX:P17948_P35968	COMPLEX:FLT1_KDR	complex	CellChatDB	role	receptor	268
+COMPLEX:P17948_P35968	COMPLEX:FLT1_KDR	complex	CellChatDB	category	Secreted Signaling	268
+COMPLEX:P35916_P35968	COMPLEX:FLT4_KDR	complex	CellChatDB	role	receptor	269
+COMPLEX:P35916_P35968	COMPLEX:FLT4_KDR	complex	CellChatDB	category	Secreted Signaling	269
+P05019	IGF1	protein	CellChatDB	role	ligand	270
+P05019	IGF1	protein	CellChatDB	pathway	IGF	270
+P05019	IGF1	protein	CellChatDB	category	Secreted Signaling	270
+P08069	IGF1R	protein	CellChatDB	role	receptor	271
+P08069	IGF1R	protein	CellChatDB	pathway	IGF	271
+P08069	IGF1R	protein	CellChatDB	category	Secreted Signaling	271
+P24592	IGFBP6	protein	CellChatDB	role	antagonist	272
+P24592	IGFBP6	protein	CellChatDB	pathway	IGF	272
+P24592	IGFBP6	protein	CellChatDB	category	Secreted Signaling	272
+P08833	IGFBP1	protein	CellChatDB	role	antagonist	273
+P08833	IGFBP1	protein	CellChatDB	pathway	IGF	273
+P08833	IGFBP1	protein	CellChatDB	category	Secreted Signaling	273
+P24593	IGFBP5	protein	CellChatDB	role	antagonist	274
+P24593	IGFBP5	protein	CellChatDB	pathway	IGF	274
+P24593	IGFBP5	protein	CellChatDB	category	Secreted Signaling	274
+P17936	IGFBP3	protein	CellChatDB	role	antagonist	275
+P17936	IGFBP3	protein	CellChatDB	pathway	IGF	275
+P17936	IGFBP3	protein	CellChatDB	category	Secreted Signaling	275
+P18065	IGFBP2	protein	CellChatDB	role	antagonist	276
+P18065	IGFBP2	protein	CellChatDB	pathway	IGF	276
+P18065	IGFBP2	protein	CellChatDB	category	Secreted Signaling	276
+P01344	IGF2	protein	CellChatDB	role	ligand	277
+P01344	IGF2	protein	CellChatDB	pathway	IGF	277
+P01344	IGF2	protein	CellChatDB	category	Secreted Signaling	277
+P11717	IGF2R	protein	CellChatDB	role	receptor	278
+P11717	IGF2R	protein	CellChatDB	pathway	IGF	278
+P11717	IGF2R	protein	CellChatDB	category	Secreted Signaling	278
+COMPLEX:P16144_P23229	COMPLEX:ITGA6_ITGB4	complex	CellChatDB	role	receptor	279
+COMPLEX:P16144_P23229	COMPLEX:ITGA6_ITGB4	complex	CellChatDB	pathway	LAMININ	279
+COMPLEX:P16144_P23229	COMPLEX:ITGA6_ITGB4	complex	CellChatDB	category	ECM-Receptor	279
+COMPLEX:P16144_P23229	COMPLEX:ITGA6_ITGB4	complex	CellChatDB	role	receptor	280
+COMPLEX:P16144_P23229	COMPLEX:ITGA6_ITGB4	complex	CellChatDB	pathway	IGF	280
+COMPLEX:P16144_P23229	COMPLEX:ITGA6_ITGB4	complex	CellChatDB	category	Secreted Signaling	280
+Q6UXB1	IGFL3	protein	CellChatDB	role	ligand	281
+Q6UXB1	IGFL3	protein	CellChatDB	pathway	IGF	281
+Q6UXB1	IGFL3	protein	CellChatDB	category	Secreted Signaling	281
+Q9H665	IGFLR1	protein	CellChatDB	role	receptor	282
+Q9H665	IGFLR1	protein	CellChatDB	pathway	IGF	282
+Q9H665	IGFLR1	protein	CellChatDB	category	Secreted Signaling	282
+P01308	INS	protein	CellChatDB	role	ligand	283
+P01308	INS	protein	CellChatDB	pathway	INSULIN	283
+P01308	INS	protein	CellChatDB	category	Secreted Signaling	283
+P06213	INSR	protein	CellChatDB	role	receptor	284
+P06213	INSR	protein	CellChatDB	pathway	VISFATIN	284
+P06213	INSR	protein	CellChatDB	category	Secreted Signaling	284
+P06213	INSR	protein	CellChatDB	role	receptor	285
+P06213	INSR	protein	CellChatDB	pathway	INSULIN	285
+P06213	INSR	protein	CellChatDB	category	Secreted Signaling	285
+O75487	GPC4	protein	CellChatDB	role	agonist	286
+O75487	GPC4	protein	CellChatDB	pathway	INSULIN	286
+O75487	GPC4	protein	CellChatDB	category	Secreted Signaling	286
+P10586	PTPRF	protein	CellChatDB	role	receptor	287
+P10586	PTPRF	protein	CellChatDB	pathway	NGL	287
+P10586	PTPRF	protein	CellChatDB	category	Cell-Cell Contact	287
+P10586	PTPRF	protein	CellChatDB	role	co_I_receptor	288
+P10586	PTPRF	protein	CellChatDB	pathway	INSULIN	288
+P10586	PTPRF	protein	CellChatDB	category	Secreted Signaling	288
+P22413	ENPP1	protein	CellChatDB	role	co_I_receptor	289
+P22413	ENPP1	protein	CellChatDB	pathway	INSULIN	289
+P22413	ENPP1	protein	CellChatDB	category	Secreted Signaling	289
+Q9ULZ1	APLN	protein	CellChatDB	role	ligand	290
+Q9ULZ1	APLN	protein	CellChatDB	pathway	APELIN	290
+Q9ULZ1	APLN	protein	CellChatDB	category	Secreted Signaling	290
+P35414	APLNR	protein	CellChatDB	role	receptor	291
+P35414	APLNR	protein	CellChatDB	pathway	APJ	291
+P35414	APLNR	protein	CellChatDB	category	Secreted Signaling	291
+P35414	APLNR	protein	CellChatDB	role	receptor	292
+P35414	APLNR	protein	CellChatDB	pathway	APELIN	292
+P35414	APLNR	protein	CellChatDB	category	Secreted Signaling	292
+O43323	DHH	protein	CellChatDB	role	ligand	293
+O43323	DHH	protein	CellChatDB	pathway	HH	293
+O43323	DHH	protein	CellChatDB	category	Secreted Signaling	293
+COMPLEX:Q13635_Q99835	COMPLEX:PTCH1_SMO	complex	CellChatDB	role	receptor	294
+COMPLEX:Q13635_Q99835	COMPLEX:PTCH1_SMO	complex	CellChatDB	pathway	HH	294
+COMPLEX:Q13635_Q99835	COMPLEX:PTCH1_SMO	complex	CellChatDB	category	Secreted Signaling	294
+Q4KMG0	CDON	protein	CellChatDB	role	co_A_receptor	295
+Q4KMG0	CDON	protein	CellChatDB	pathway	HH	295
+Q4KMG0	CDON	protein	CellChatDB	category	Secreted Signaling	295
+P98164	LRP2	protein	CellChatDB	role	co_A_receptor	296
+P98164	LRP2	protein	CellChatDB	pathway	HH	296
+P98164	LRP2	protein	CellChatDB	category	Secreted Signaling	296
+P54826	GAS1	protein	CellChatDB	role	co_A_receptor	297
+P54826	GAS1	protein	CellChatDB	pathway	HH	297
+P54826	GAS1	protein	CellChatDB	category	Secreted Signaling	297
+Q9BWV1	BOC	protein	CellChatDB	role	co_A_receptor	298
+Q9BWV1	BOC	protein	CellChatDB	pathway	HH	298
+Q9BWV1	BOC	protein	CellChatDB	category	Secreted Signaling	298
+Q96QV1	HHIP	protein	CellChatDB	role	co_I_receptor	299
+Q96QV1	HHIP	protein	CellChatDB	pathway	HH	299
+Q96QV1	HHIP	protein	CellChatDB	category	Secreted Signaling	299
+Q14623	IHH	protein	CellChatDB	role	ligand	300
+Q14623	IHH	protein	CellChatDB	pathway	HH	300
+Q14623	IHH	protein	CellChatDB	category	Secreted Signaling	300
+Q15465	SHH	protein	CellChatDB	role	ligand	301
+Q15465	SHH	protein	CellChatDB	pathway	HH	301
+Q15465	SHH	protein	CellChatDB	category	Secreted Signaling	301
+COMPLEX:Q99835_Q9Y6C5	COMPLEX:PTCH2_SMO	complex	CellChatDB	role	receptor	302
+COMPLEX:Q99835_Q9Y6C5	COMPLEX:PTCH2_SMO	complex	CellChatDB	pathway	HH	302
+COMPLEX:Q99835_Q9Y6C5	COMPLEX:PTCH2_SMO	complex	CellChatDB	category	Secreted Signaling	302
+P13501	CCL5	protein	CellChatDB	role	ligand	303
+P13501	CCL5	protein	CellChatDB	pathway	CCL	303
+P13501	CCL5	protein	CellChatDB	category	Secreted Signaling	303
+P32246	CCR1	protein	CellChatDB	role	receptor	304
+P32246	CCR1	protein	CellChatDB	pathway	CCL	304
+P32246	CCR1	protein	CellChatDB	category	Secreted Signaling	304
+P10147	CCL3	protein	CellChatDB	role	ligand	305
+P10147	CCL3	protein	CellChatDB	pathway	CCL	305
+P10147	CCL3	protein	CellChatDB	category	Secreted Signaling	305
+P16619	CCL3L3	protein	CellChatDB	role	ligand	306
+P16619	CCL3L3	protein	CellChatDB	pathway	CCL	306
+P16619	CCL3L3	protein	CellChatDB	category	Secreted Signaling	306
+P80075	CCL8	protein	CellChatDB	role	ligand	307
+P80075	CCL8	protein	CellChatDB	pathway	CCL	307
+P80075	CCL8	protein	CellChatDB	category	Secreted Signaling	307
+P80098	CCL7	protein	CellChatDB	role	ligand	308
+P80098	CCL7	protein	CellChatDB	pathway	CCL	308
+P80098	CCL7	protein	CellChatDB	category	Secreted Signaling	308
+Q99616	CCL13	protein	CellChatDB	role	ligand	309
+Q99616	CCL13	protein	CellChatDB	pathway	CCL	309
+Q99616	CCL13	protein	CellChatDB	category	Secreted Signaling	309
+Q16627	CCL14	protein	CellChatDB	role	ligand	310
+Q16627	CCL14	protein	CellChatDB	pathway	CCL	310
+Q16627	CCL14	protein	CellChatDB	category	Secreted Signaling	310
+Q16663	CCL15	protein	CellChatDB	role	ligand	311
+Q16663	CCL15	protein	CellChatDB	pathway	CCL	311
+Q16663	CCL15	protein	CellChatDB	category	Secreted Signaling	311
+O15467	CCL16	protein	CellChatDB	role	ligand	312
+O15467	CCL16	protein	CellChatDB	pathway	CCL	312
+O15467	CCL16	protein	CellChatDB	category	Secreted Signaling	312
+P55773	CCL23	protein	CellChatDB	role	ligand	313
+P55773	CCL23	protein	CellChatDB	pathway	CCL	313
+P55773	CCL23	protein	CellChatDB	category	Secreted Signaling	313
+P41597	CCR2	protein	CellChatDB	role	receptor	314
+P41597	CCR2	protein	CellChatDB	pathway	CCL	314
+P41597	CCR2	protein	CellChatDB	category	Secreted Signaling	314
+P13500	CCL2	protein	CellChatDB	role	ligand	315
+P13500	CCL2	protein	CellChatDB	pathway	CCL	315
+P13500	CCL2	protein	CellChatDB	category	Secreted Signaling	315
+Q9Y4X3	CCL27	protein	CellChatDB	role	ligand	316
+Q9Y4X3	CCL27	protein	CellChatDB	pathway	CCL	316
+Q9Y4X3	CCL27	protein	CellChatDB	category	Secreted Signaling	316
+P51677	CCR3	protein	CellChatDB	role	receptor	317
+P51677	CCR3	protein	CellChatDB	pathway	CCL	317
+P51677	CCR3	protein	CellChatDB	category	Secreted Signaling	317
+P51671	CCL11	protein	CellChatDB	role	ligand	318
+P51671	CCL11	protein	CellChatDB	pathway	CCL	318
+P51671	CCL11	protein	CellChatDB	category	Secreted Signaling	318
+O00175	CCL24	protein	CellChatDB	role	ligand	319
+O00175	CCL24	protein	CellChatDB	pathway	CCL	319
+O00175	CCL24	protein	CellChatDB	category	Secreted Signaling	319
+Q9Y258	CCL26	protein	CellChatDB	role	ligand	320
+Q9Y258	CCL26	protein	CellChatDB	pathway	CCL	320
+Q9Y258	CCL26	protein	CellChatDB	category	Secreted Signaling	320
+Q9NRJ3	CCL28	protein	CellChatDB	role	ligand	321
+Q9NRJ3	CCL28	protein	CellChatDB	pathway	CCL	321
+Q9NRJ3	CCL28	protein	CellChatDB	category	Secreted Signaling	321
+Q92583	CCL17	protein	CellChatDB	role	ligand	322
+Q92583	CCL17	protein	CellChatDB	pathway	CCL	322
+Q92583	CCL17	protein	CellChatDB	category	Secreted Signaling	322
+P51679	CCR4	protein	CellChatDB	role	receptor	323
+P51679	CCR4	protein	CellChatDB	pathway	CCL	323
+P51679	CCR4	protein	CellChatDB	category	Secreted Signaling	323
+O00626	CCL22	protein	CellChatDB	role	ligand	324
+O00626	CCL22	protein	CellChatDB	pathway	CCL	324
+O00626	CCL22	protein	CellChatDB	category	Secreted Signaling	324
+P13236	CCL4	protein	CellChatDB	role	ligand	325
+P13236	CCL4	protein	CellChatDB	pathway	CCL	325
+P13236	CCL4	protein	CellChatDB	category	Secreted Signaling	325
+P51681	CCR5	protein	CellChatDB	role	receptor	326
+P51681	CCR5	protein	CellChatDB	pathway	CCL	326
+P51681	CCR5	protein	CellChatDB	category	Secreted Signaling	326
+P78556	CCL20	protein	CellChatDB	role	ligand	327
+P78556	CCL20	protein	CellChatDB	pathway	CCL	327
+P78556	CCL20	protein	CellChatDB	category	Secreted Signaling	327
+P51684	CCR6	protein	CellChatDB	role	receptor	328
+P51684	CCR6	protein	CellChatDB	pathway	CCL	328
+P51684	CCR6	protein	CellChatDB	category	Secreted Signaling	328
+Q99731	CCL19	protein	CellChatDB	role	ligand	329
+Q99731	CCL19	protein	CellChatDB	pathway	CCL	329
+Q99731	CCL19	protein	CellChatDB	category	Secreted Signaling	329
+P32248	CCR7	protein	CellChatDB	role	receptor	330
+P32248	CCR7	protein	CellChatDB	pathway	CCL	330
+P32248	CCR7	protein	CellChatDB	category	Secreted Signaling	330
+O00585	CCL21	protein	CellChatDB	role	ligand	331
+O00585	CCL21	protein	CellChatDB	pathway	CCL	331
+O00585	CCL21	protein	CellChatDB	category	Secreted Signaling	331
+Q9NPB9	ACKR4	protein	CellChatDB	role	receptor	332
+Q9NPB9	ACKR4	protein	CellChatDB	pathway	CCL	332
+Q9NPB9	ACKR4	protein	CellChatDB	category	Secreted Signaling	332
+P22362	CCL1	protein	CellChatDB	role	ligand	333
+P22362	CCL1	protein	CellChatDB	pathway	CCL	333
+P22362	CCL1	protein	CellChatDB	category	Secreted Signaling	333
+P51685	CCR8	protein	CellChatDB	role	receptor	334
+P51685	CCR8	protein	CellChatDB	pathway	CCL	334

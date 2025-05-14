@@ -1,0 +1,26 @@
+# add your desired knowledge graph components here
+# Authors:  Matthieu Najm - Edwin Carreño
+
+#--- Ontology: BioLink
+#--------------------  Information about Nodes
+biological entity:
+    represented_as: node
+    input_label: biological_entity
+    properties:
+        entity_type: str
+        name: str
+
+attribute:    
+    represented_as: node
+    input_label: attribute
+    properties:
+        label: str
+
+#--------------------  Information about Edges
+has attribute:
+    is_a: association
+    represented_as: edge
+    input_label: has_attribute
+    properties:
+        source: str
+        record_id: str

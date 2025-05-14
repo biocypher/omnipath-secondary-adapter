@@ -1,0 +1,36 @@
+row:
+    map:
+        column: uniprot # column name in the datafrane
+        to_subject: biological_entity # give name to the node type in the KG
+transformers:
+    - map:
+        column: value
+        to_object: attribute
+        via_relation: has_attribute
+    # ----------    Properties for NODES    ----------
+    # Properties of the node type 'biological_entity'
+    - map:
+        column: entity_type 
+        to_property: entity_type
+        for_object: biological_entity
+    - map:
+        column: genesymbol # column name of the property to extract
+        to_property: name # give name of the property
+        for_object: biological_entity # node type | label to which the property will be linked
+    # Properties of the node type 'attribute'
+    - map:
+        column: label 
+        to_property: label
+        for_object: attribute
+    # ----------    Properties for EDGES    ----------
+    # Properties for the edge type 'has_attribute'
+    - map:
+        column: source
+        to_property: source
+        for_object: has_attribute
+    - split:
+        column: record_id
+        to_property: record_id
+        for_object: has_attribute
+        separator: ","
+        

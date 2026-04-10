@@ -1,0 +1,1639 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "sc": "https://schema.org/",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "dct": "http://purl.org/dc/terms/",
+    "bsc": "https://bioschemas.org/profiles/Dataset/1.0-RELEASE/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "samplingRate": "cr:samplingRate",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "SoftwareSourceCode",
+  "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalTool/1.0-RELEASE/",
+  "@id": "omnipath-adapter",
+  "name": "OmniPath Adapter",
+  "description": "Adapter that produces a knowledge graph of OmniPath secondary interactions for use with BioCypher.",
+  "version": "1.0.0",
+  "license": "https://opensource.org/licenses/MIT",
+  "codeRepository": "https://github.com/biocypher/omnipath-secondary-adapter",
+  "programmingLanguage": "Python",
+  "targetProduct": "BioCypher",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Edwin Carreño",
+      "identifier": "https://orcid.org/0009-0005-3359-2211"
+    },
+    {
+      "@type": "Person",
+      "name": "Matthieu Najm",
+      "identifier": "https://orcid.org/0000-0001-9757-1499"
+    }
+  ],
+  "keywords": [
+    "knowledge-graphs",
+    "biocypher",
+    "omnipath-secondary-adapter"
+  ],
+  "hasPart": [
+    {
+      "@type": "sc:Dataset",
+      "name": "Networks",
+      "description": "A comprehensive dataset capturing diverse interaction relationships between molecular entities, enabling the exploration of complex biological networks and signaling pathways.",
+      "conformsTo": "http://mlcommons.org/croissant/1.0",
+      "license": "MIT",
+      "url": "https://archive.omnipathdb.org/omnipath_webservice_interactions__latest.tsv.gz",
+      "version": "1.0.0",
+      "distribution": [
+        {
+          "@type": "cr:FileObject",
+          "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz",
+          "contentUrl": "/home/edwin/Downloads/OMNIPATH_DB/datasets/omnipath-interactions/omnipath_webservice_interactions__latest.tsv.gz",
+          "encodingFormat": "text/tab-separated-values",
+          "name": "omnipath_webservice_interactions__latest.tsv.gz",
+          "sha256": "dc02fd8f8b72aa2a3d5feb05fe9a5f60145c657b7ffa670a1281d59aefca1e52"
+        }
+      ],
+      "recordSet": [
+        {
+          "@type": "cr:RecordSet",
+          "@id": "networks-1/networks-records",
+          "name": "records",
+          "field": [
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/source",
+              "name": "source",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "P0DP25"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "source"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/target",
+              "name": "target",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "P48995"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "target"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/source_genesymbol",
+              "name": "source_genesymbol",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "CALM3"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "source_genesymbol"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/target_genesymbol",
+              "name": "target_genesymbol",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "TRPC1"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "target_genesymbol"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/is_directed",
+              "name": "is_directed",
+              "description": "",
+              "dataType": "sc:Integer",
+              "examples": [
+                1
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "is_directed"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/is_stimulation",
+              "name": "is_stimulation",
+              "description": "",
+              "dataType": "sc:Integer",
+              "examples": [
+                0
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "is_stimulation"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/is_inhibition",
+              "name": "is_inhibition",
+              "description": "",
+              "dataType": "sc:Integer",
+              "examples": [
+                1
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "is_inhibition"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/consensus_direction",
+              "name": "consensus_direction",
+              "description": "",
+              "dataType": "sc:Integer",
+              "examples": [
+                1
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "consensus_direction"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/consensus_stimulation",
+              "name": "consensus_stimulation",
+              "description": "",
+              "dataType": "sc:Integer",
+              "examples": [
+                0
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "consensus_stimulation"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/consensus_inhibition",
+              "name": "consensus_inhibition",
+              "description": "",
+              "dataType": "sc:Integer",
+              "examples": [
+                1
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "consensus_inhibition"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/sources",
+              "name": "sources",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "TRIP"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "sources"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/references",
+              "name": "references",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "TRIP:11290752;TRIP:11983166;TRIP:12601176"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "references"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/omnipath",
+              "name": "omnipath",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                true
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "omnipath"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/kinaseextra",
+              "name": "kinaseextra",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                false
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "kinaseextra"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/ligrecextra",
+              "name": "ligrecextra",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                false
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "ligrecextra"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/pathwayextra",
+              "name": "pathwayextra",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                false
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "pathwayextra"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/mirnatarget",
+              "name": "mirnatarget",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                false
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "mirnatarget"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/dorothea",
+              "name": "dorothea",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                false
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "dorothea"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/collectri",
+              "name": "collectri",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                false
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "collectri"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/tf_target",
+              "name": "tf_target",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                false
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "tf_target"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/lncrna_mrna",
+              "name": "lncrna_mrna",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                false
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "lncrna_mrna"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/tf_mirna",
+              "name": "tf_mirna",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                false
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "tf_mirna"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/small_molecule",
+              "name": "small_molecule",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                false
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "small_molecule"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/dorothea_curated",
+              "name": "dorothea_curated",
+              "description": "",
+              "dataType": "sc:Float",
+              "examples": [],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "dorothea_curated"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/dorothea_chipseq",
+              "name": "dorothea_chipseq",
+              "description": "",
+              "dataType": "sc:Float",
+              "examples": [],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "dorothea_chipseq"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/dorothea_tfbs",
+              "name": "dorothea_tfbs",
+              "description": "",
+              "dataType": "sc:Float",
+              "examples": [],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "dorothea_tfbs"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/dorothea_coexp",
+              "name": "dorothea_coexp",
+              "description": "",
+              "dataType": "sc:Float",
+              "examples": [],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "dorothea_coexp"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/dorothea_level",
+              "name": "dorothea_level",
+              "description": "",
+              "dataType": "sc:Float",
+              "examples": [],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "dorothea_level"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/type",
+              "name": "type",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "post_translational"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "type"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/curation_effort",
+              "name": "curation_effort",
+              "description": "",
+              "dataType": "sc:Integer",
+              "examples": [
+                3
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "curation_effort"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/extra_attrs",
+              "name": "extra_attrs",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "{\"TRIP_method\":[\"Fluorescence probe labeling\",\"Fusion protein-pull down assay\",\"Patch clamp\",\"Calcium measurement\"]}"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "extra_attrs"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/evidences",
+              "name": "evidences",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "{\"id_a\":\"P0DP25\",\"id_b\":\"P48995\",\"positive\":[],\"negative\":[{\"resource\":\"TRIP\",\"references\":[\"12601176\",\"11290752\",\"11983166\"],\"dataset\":\"omnipath\",\"via\":null,\"attrs\":{\"method\":[\"Fluorescence probe labeling\",\"Fusion protein-pull down assay\",\"Patch clamp\",\"Calcium measurement\"]}}],\"directed\":[],\"undirected\":[]}"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "evidences"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/ncbi_tax_id_source",
+              "name": "ncbi_tax_id_source",
+              "description": "",
+              "dataType": "sc:Integer",
+              "examples": [
+                9606
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "ncbi_tax_id_source"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/entity_type_source",
+              "name": "entity_type_source",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "protein"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "entity_type_source"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/ncbi_tax_id_target",
+              "name": "ncbi_tax_id_target",
+              "description": "",
+              "dataType": "sc:Integer",
+              "examples": [
+                9606
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "ncbi_tax_id_target"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "networks-1/networks-records/entity_type_target",
+              "name": "entity_type_target",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "protein"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "networks-1/omnipath-webservice-interactions--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "entity_type_target"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "datePublished": "2016-06-01",
+      "citeAs": "https://omnipathdb.org/",
+      "creator": [
+        {
+          "@type": "sc:Organization",
+          "name": "Saezlab",
+          "url": "https://www.saezlab.com/"
+        }
+      ]
+    },
+    {
+      "@type": "sc:Dataset",
+      "name": "Enzyme-PTM",
+      "description": "A detailed dataset describing enzyme-substrate relationships with an emphasis on post-translational modifications, including kinase-driven phosphorylation as well as acetylation and other PTM types.",
+      "conformsTo": "http://mlcommons.org/croissant/1.0",
+      "license": "MIT",
+      "url": "https://archive.omnipathdb.org/omnipath_webservice_enz_sub__latest.tsv.gz",
+      "version": "1.0.0",
+      "distribution": [
+        {
+          "@type": "cr:FileObject",
+          "@id": "enzyme-ptm-2/omnipath-webservice-enz-sub--latest.tsv.gz",
+          "contentUrl": "/home/edwin/Downloads/OMNIPATH_DB/datasets/omnipath-enz-sub/omnipath_webservice_enz_sub__latest.tsv.gz",
+          "encodingFormat": "text/tab-separated-values",
+          "name": "omnipath_webservice_enz_sub__latest.tsv.gz",
+          "sha256": "10c889259078136e5572a75783343000998e33040f7ed3037aed4d5a9ecab32a"
+        }
+      ],
+      "recordSet": [
+        {
+          "@type": "cr:RecordSet",
+          "@id": "enzyme-ptm-2/enzyme-ptm-records",
+          "name": "records",
+          "field": [
+            {
+              "@type": "cr:Field",
+              "@id": "enzyme-ptm-2/enzyme-ptm-records/enzyme",
+              "name": "enzyme",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "P06239"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "enzyme-ptm-2/omnipath-webservice-enz-sub--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "enzyme"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "enzyme-ptm-2/enzyme-ptm-records/enzyme_genesymbol",
+              "name": "enzyme_genesymbol",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "LCK"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "enzyme-ptm-2/omnipath-webservice-enz-sub--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "enzyme_genesymbol"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "enzyme-ptm-2/enzyme-ptm-records/substrate",
+              "name": "substrate",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "O14543"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "enzyme-ptm-2/omnipath-webservice-enz-sub--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "substrate"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "enzyme-ptm-2/enzyme-ptm-records/substrate_genesymbol",
+              "name": "substrate_genesymbol",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "SOCS3"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "enzyme-ptm-2/omnipath-webservice-enz-sub--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "substrate_genesymbol"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "enzyme-ptm-2/enzyme-ptm-records/isoforms",
+              "name": "isoforms",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "1"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "enzyme-ptm-2/omnipath-webservice-enz-sub--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "isoforms"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "enzyme-ptm-2/enzyme-ptm-records/residue_type",
+              "name": "residue_type",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "Y"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "enzyme-ptm-2/omnipath-webservice-enz-sub--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "residue_type"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "enzyme-ptm-2/enzyme-ptm-records/residue_offset",
+              "name": "residue_offset",
+              "description": "",
+              "dataType": "sc:Integer",
+              "examples": [
+                204
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "enzyme-ptm-2/omnipath-webservice-enz-sub--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "residue_offset"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "enzyme-ptm-2/enzyme-ptm-records/modification",
+              "name": "modification",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "phosphorylation"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "enzyme-ptm-2/omnipath-webservice-enz-sub--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "modification"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "enzyme-ptm-2/enzyme-ptm-records/sources",
+              "name": "sources",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "KEA;MIMP;PhosphoNetworks;PhosphoSite;PhosphoSite_MIMP;PhosphoSite_ProtMapper;ProtMapper;phosphoELM;phosphoELM_MIMP"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "enzyme-ptm-2/omnipath-webservice-enz-sub--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "sources"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "enzyme-ptm-2/enzyme-ptm-records/references",
+              "name": "references",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "KEA:12783885;phosphoELM:12783885"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "enzyme-ptm-2/omnipath-webservice-enz-sub--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "references"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "enzyme-ptm-2/enzyme-ptm-records/curation_effort",
+              "name": "curation_effort",
+              "description": "",
+              "dataType": "sc:Integer",
+              "examples": [
+                2
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "enzyme-ptm-2/omnipath-webservice-enz-sub--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "curation_effort"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "enzyme-ptm-2/enzyme-ptm-records/ncbi_tax_id",
+              "name": "ncbi_tax_id",
+              "description": "",
+              "dataType": "sc:Integer",
+              "examples": [
+                9606
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "enzyme-ptm-2/omnipath-webservice-enz-sub--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "ncbi_tax_id"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "datePublished": "2016-06-02",
+      "citeAs": "https://omnipathdb.org/",
+      "creator": [
+        {
+          "@type": "sc:Organization",
+          "name": "Saezlab",
+          "url": "https://www.saezlab.com/"
+        }
+      ]
+    },
+    {
+      "@type": "sc:Dataset",
+      "name": "Complexes",
+      "description": "An integrated dataset compiling information on protein complexes from multiple resources, offering a unified view of macromolecular assemblies and their components.",
+      "conformsTo": "http://mlcommons.org/croissant/1.0",
+      "license": "MIT",
+      "url": "https://archive.omnipathdb.org/omnipath_webservice_complexes__latest.tsv.gz",
+      "version": "1.0.0",
+      "distribution": [
+        {
+          "@type": "cr:FileObject",
+          "@id": "complexes-3/omnipath-webservice-complexes--latest.tsv.gz",
+          "contentUrl": "/home/edwin/Downloads/OMNIPATH_DB/datasets/omnipath-complexes/omnipath_webservice_complexes__latest.tsv.gz",
+          "encodingFormat": "text/tab-separated-values",
+          "name": "omnipath_webservice_complexes__latest.tsv.gz",
+          "sha256": "4c0ff2c432dfae88cf2adba9dc09ee6f0ae8606bff000b97252147e733b01a6b"
+        }
+      ],
+      "recordSet": [
+        {
+          "@type": "cr:RecordSet",
+          "@id": "complexes-3/complexes-records",
+          "name": "records",
+          "field": [
+            {
+              "@type": "cr:Field",
+              "@id": "complexes-3/complexes-records/name",
+              "name": "name",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "NFY"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "complexes-3/omnipath-webservice-complexes--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "name"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "complexes-3/complexes-records/components",
+              "name": "components",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "P23511_P25208_Q13952"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "complexes-3/omnipath-webservice-complexes--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "components"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "complexes-3/complexes-records/components_genesymbols",
+              "name": "components_genesymbols",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "NFYA_NFYB_NFYC"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "complexes-3/omnipath-webservice-complexes--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "components_genesymbols"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "complexes-3/complexes-records/stoichiometry",
+              "name": "stoichiometry",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "1:1:1"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "complexes-3/omnipath-webservice-complexes--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "stoichiometry"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "complexes-3/complexes-records/sources",
+              "name": "sources",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "SIGNOR;Compleat;hu.MAP2;CORUM;PDB;ComplexPortal;SPIKE;hu.MAP"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "complexes-3/omnipath-webservice-complexes--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "sources"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "complexes-3/complexes-records/references",
+              "name": "references",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "9372932;14755292;15243141"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "complexes-3/omnipath-webservice-complexes--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "references"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "complexes-3/complexes-records/identifiers",
+              "name": "identifiers",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "SIGNOR:SIGNOR-C1;CORUM:4478;Compleat:HC1449;intact:EBI-6672597;PDB:8qu4;PDB:6qms;PDB:6qmp;PDB:4awl;PDB:8qu3;PDB:8qu2;PDB:6qmq"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "complexes-3/omnipath-webservice-complexes--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "identifiers"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "datePublished": "2016-06-03",
+      "citeAs": "https://omnipathdb.org/",
+      "creator": [
+        {
+          "@type": "sc:Organization",
+          "name": "Saezlab",
+          "url": "https://www.saezlab.com/"
+        }
+      ]
+    },
+    {
+      "@type": "sc:Dataset",
+      "name": "Annotations",
+      "description": "A rich dataset providing extensive functional and structural annotations of proteins and genes, including their localization, expression patterns, and biological roles.",
+      "conformsTo": "http://mlcommons.org/croissant/1.0",
+      "license": "MIT",
+      "url": "https://archive.omnipathdb.org/omnipath_webservice_annotations__latest.tsv.gz",
+      "version": "1.0.0",
+      "distribution": [
+        {
+          "@type": "cr:FileObject",
+          "@id": "annotations-4/omnipath-webservice-annotations--latest.tsv.gz",
+          "contentUrl": "/home/edwin/Downloads/OMNIPATH_DB/datasets/omnipath-annotations/omnipath_webservice_annotations__latest.tsv.gz",
+          "encodingFormat": "text/tab-separated-values",
+          "name": "omnipath_webservice_annotations__latest.tsv.gz",
+          "sha256": "f1628dc3d31c32643bcef0951a9aff4f8c712a805e8eb1a87ec3f75ce8714e04"
+        }
+      ],
+      "recordSet": [
+        {
+          "@type": "cr:RecordSet",
+          "@id": "annotations-4/annotations-records",
+          "name": "records",
+          "field": [
+            {
+              "@type": "cr:Field",
+              "@id": "annotations-4/annotations-records/uniprot",
+              "name": "uniprot",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "P04217"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "annotations-4/omnipath-webservice-annotations--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "uniprot"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "annotations-4/annotations-records/genesymbol",
+              "name": "genesymbol",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "A1BG"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "annotations-4/omnipath-webservice-annotations--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "genesymbol"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "annotations-4/annotations-records/entity_type",
+              "name": "entity_type",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "protein"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "annotations-4/omnipath-webservice-annotations--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "entity_type"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "annotations-4/annotations-records/source",
+              "name": "source",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "HGNC"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "annotations-4/omnipath-webservice-annotations--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "source"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "annotations-4/annotations-records/label",
+              "name": "label",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "mainclass"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "annotations-4/omnipath-webservice-annotations--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "label"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "annotations-4/annotations-records/value",
+              "name": "value",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "Immunoglobulin like domain containing"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "annotations-4/omnipath-webservice-annotations--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "value"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "annotations-4/annotations-records/record_id",
+              "name": "record_id",
+              "description": "",
+              "dataType": "sc:Integer",
+              "examples": [
+                0
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "annotations-4/omnipath-webservice-annotations--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "record_id"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "datePublished": "2016-06-04",
+      "citeAs": "https://omnipathdb.org/",
+      "creator": [
+        {
+          "@type": "sc:Organization",
+          "name": "Saezlab",
+          "url": "https://www.saezlab.com/"
+        }
+      ]
+    },
+    {
+      "@type": "sc:Dataset",
+      "name": "Intercell",
+      "description": "A specialized dataset annotating proteins according to their roles in intercellular communication, such as ligands, receptors, and extracellular matrix components.",
+      "conformsTo": "http://mlcommons.org/croissant/1.0",
+      "license": "MIT",
+      "url": "https://archive.omnipathdb.org/omnipath_webservice_intercell__latest.tsv.gz",
+      "version": "1.0.0",
+      "distribution": [
+        {
+          "@type": "cr:FileObject",
+          "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz",
+          "contentUrl": "/home/edwin/Downloads/OMNIPATH_DB/datasets/omnipath-intercell/omnipath_webservice_intercell__latest.tsv.gz",
+          "encodingFormat": "text/tab-separated-values",
+          "name": "omnipath_webservice_intercell__latest.tsv.gz",
+          "sha256": "635b6283e2b9b5d8423f127613278361b4a98836abcc109044ec59a3f6523215"
+        }
+      ],
+      "recordSet": [
+        {
+          "@type": "cr:RecordSet",
+          "@id": "intercell-5/intercell-records",
+          "name": "records",
+          "field": [
+            {
+              "@type": "cr:Field",
+              "@id": "intercell-5/intercell-records/category",
+              "name": "category",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "transmembrane"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "category"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "intercell-5/intercell-records/parent",
+              "name": "parent",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "transmembrane"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "parent"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "intercell-5/intercell-records/database",
+              "name": "database",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "UniProt_location"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "database"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "intercell-5/intercell-records/scope",
+              "name": "scope",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "generic"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "scope"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "intercell-5/intercell-records/aspect",
+              "name": "aspect",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "locational"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "aspect"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "intercell-5/intercell-records/source",
+              "name": "source",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "resource_specific"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "source"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "intercell-5/intercell-records/uniprot",
+              "name": "uniprot",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "Q8IUH4"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "uniprot"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "intercell-5/intercell-records/genesymbol",
+              "name": "genesymbol",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "ZDHHC13"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "genesymbol"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "intercell-5/intercell-records/entity_type",
+              "name": "entity_type",
+              "description": "",
+              "dataType": "sc:Text",
+              "examples": [
+                "protein"
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "entity_type"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "intercell-5/intercell-records/consensus_score",
+              "name": "consensus_score",
+              "description": "",
+              "dataType": "sc:Integer",
+              "examples": [
+                4
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "consensus_score"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "intercell-5/intercell-records/transmitter",
+              "name": "transmitter",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                false
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "transmitter"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "intercell-5/intercell-records/receiver",
+              "name": "receiver",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                false
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "receiver"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "intercell-5/intercell-records/secreted",
+              "name": "secreted",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                false
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "secreted"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "intercell-5/intercell-records/plasma_membrane_transmembrane",
+              "name": "plasma_membrane_transmembrane",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                false
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "plasma_membrane_transmembrane"
+                }
+              }
+            },
+            {
+              "@type": "cr:Field",
+              "@id": "intercell-5/intercell-records/plasma_membrane_peripheral",
+              "name": "plasma_membrane_peripheral",
+              "description": "",
+              "dataType": "sc:Boolean",
+              "examples": [
+                false
+              ],
+              "source": {
+                "fileObject": {
+                  "@id": "intercell-5/omnipath-webservice-intercell--latest.tsv.gz"
+                },
+                "extract": {
+                  "column": "plasma_membrane_peripheral"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "datePublished": "2016-06-05",
+      "citeAs": "https://omnipathdb.org/",
+      "creator": [
+        {
+          "@type": "sc:Organization",
+          "name": "Saezlab",
+          "url": "https://www.saezlab.com/"
+        }
+      ]
+    }
+  ]
+}

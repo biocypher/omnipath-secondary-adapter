@@ -1,0 +1,35 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: OmniPath Secondary Adapter
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Edwin
+    family-names: Carreño
+    email: edwin.carreno@iwr.uni-heidelberg.de
+    affiliation: Scientific Software Center
+    orcid: 'https://orcid.org/0009-0005-3359-2211'
+  - given-names: Matthieu
+    family-names: Najm
+    orcid: 'https://orcid.org/0000-0001-9757-1499'
+    affiliation: Institute Pasteur
+    email: matthieu.najm@pasteur.fr
+repository-code: 'https://github.com/biocypher/omnipath-secondary-adapter'
+abstract: >-
+  BioCypher adapter to retrieve data from Omnipath database
+  (Networks, Intercell, Complexes, EnzymePTM and
+  Annotations).
+keywords:
+  - biocypher
+  - biological-networks
+  - knowledge-graph
+  - neo4j
+  - ontoweaver
+license: MIT
+commit: 915c5530b777e0b701b372e1a56da7f4e941086c
+version: latest
+date-released: '2026-08-31'

@@ -18,6 +18,9 @@ authors:
     orcid: 'https://orcid.org/0000-0001-9757-1499'
     affiliation: Institute Pasteur
     email: matthieu.najm@pasteur.fr
+
+doi: "10.5281/zenodo.22201105"
+
 repository-code: 'https://github.com/biocypher/omnipath-secondary-adapter'
 abstract: >-
   BioCypher adapter to retrieve data from Omnipath database
@@ -31,5 +34,5 @@ keywords:
   - ontoweaver
 license: MIT
 commit: 915c5530b777e0b701b372e1a56da7f4e941086c
-version: latest
+version:  "0.1.1"
 date-released: '2026-08-31'

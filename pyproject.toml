@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "omnipath-secondary-adapter"
-version = "0.1.0"
+version = "0.1.1"
 description = "BioCypher adapter to retrieve and generate Knowledge Graphs from Omnipath data"
 authors = [
     "Edwin Carreño <edwin.carreno@iwr.uni-heidelberg.de>",
